@@ -1,0 +1,14 @@
+{
+  "_leeme": "Crédito de cada foto de media/ (por nombre, sin .jpg). Las de la web municipal solo valen para la maqueta que se le enseña al Ayuntamiento: hace falta su autorización para publicarlas. Las de Commons llevan recorte y gradación de color propios, y así se dice.",
+  "plaza-parroquia": { "titulo": "Plaza y torre de la parroquia (portada)", "autor": "Sergueibubu (Wikimedia Commons)", "licencia": "CC0", "url": "https://commons.wikimedia.org/wiki/File:Parroquia_Ntra_Sra_de_la_Granada.jpg", "nota": "Con gradación de color propia" },
+  "parroquia": { "titulo": "Parroquia de Nuestra Señora de la Granada", "autor": "stavros1 (Wikimedia Commons)", "licencia": "CC BY 3.0", "url": "https://commons.wikimedia.org/wiki/File:Fuento_de_Cantos_Parish_Church_22_09_12.JPG", "nota": "Recortada y con gradación de color propia" },
+  "ayuntamiento": { "titulo": "Casa Consistorial", "autor": "stavros1 (Wikimedia Commons)", "licencia": "CC BY 3.0", "url": "https://commons.wikimedia.org/wiki/File:Fuento_de_Cantos_The_Town_Hall_22_09_2012.JPG", "nota": "Recortada y con gradación de color propia" },
+  "casa-natal": { "titulo": "Casa natal de Francisco de Zurbarán", "autor": "web del Ayuntamiento", "nota": "Solo para la propuesta: hace falta su autorización para publicarla" },
+  "hermosa": { "titulo": "Santuario de Nuestra Señora de la Hermosa", "autor": "web del Ayuntamiento", "nota": "Solo para la propuesta: hace falta su autorización para publicarla" },
+  "san-juan": { "titulo": "Ermita de San Juan de Letrán", "autor": "web del Ayuntamiento", "nota": "Solo para la propuesta: hace falta su autorización para publicarla" },
+  "san-isidro": { "titulo": "Ermita de San Isidro", "autor": "Rene112233, foto de Jorge Armestar (Wikimedia Commons)", "licencia": "CC BY-SA 4.0", "url": "https://commons.wikimedia.org/wiki/File:Caballo_frente_de_la_Ermita_de_San_Isidro_de_Fuente_de_Cantos.jpg", "nota": "Con gradación de color propia" },
+  "san-diego": { "titulo": "Convento de San Diego", "autor": "web del Ayuntamiento", "nota": "Solo para la propuesta: hace falta su autorización para publicarla" },
+  "castillejos": { "titulo": "Yacimiento de Los Castillejos", "autor": "web del Ayuntamiento", "nota": "Solo para la propuesta: hace falta su autorización para publicarla" },
+  "estatua-zurbaran": { "titulo": "Estatua de Zurbarán", "autor": "Gonzalo 11789 (Wikimedia Commons)", "licencia": "CC0", "url": "https://commons.wikimedia.org/wiki/File:Estatua_de_Zurbar%C3%A1n_en_Fuente_de_Cantos_02.jpg", "nota": "Con gradación de color propia" },
+  "chanfaina": { "titulo": "Caldero de chanfaina", "autor": "web del Ayuntamiento", "nota": "Solo para la propuesta: hace falta su autorización para publicarla" }
+}

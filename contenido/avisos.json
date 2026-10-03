@@ -1,0 +1,29 @@
+{
+  "_leeme": "Avisos del Ayuntamiento. Campos: id, fecha (AAAA-MM-DD), tema, titulo, texto, enlace (opcional). Con \"urgente\": true y \"caduca\" (AAAA-MM-DD) sale en la franja roja de todas las páginas hasta ese día incluido. \"ejemplo\": true pone la etiqueta «Ejemplo». También se pueden publicar desde la hoja de cálculo (municipio.json → hoja). Fuentes: Instagram del Ayuntamiento, tablón de la sede y su web (ver DATOS.md).",
+  "avisos": [
+    {
+      "id": "lista-administrativo",
+      "fecha": "2026-10-01",
+      "tema": "Empleo",
+      "titulo": "Publicada la lista definitiva del proceso de administrativo/a",
+      "texto": "Está en el tablón de anuncios de la sede electrónica. Allí se publican también las siguientes fases del proceso.",
+      "enlace": "https://fuentedecantos.sedelectronica.es/board"
+    },
+    {
+      "id": "cursos-ingles-aupex",
+      "fecha": "2026-09-12",
+      "tema": "Formación",
+      "titulo": "Abierta la matrícula de los cursos de inglés",
+      "texto": "Los cursos del Centro Local de Idiomas de la Asociación de Universidades Populares de Extremadura (AUPEX). La matrícula se hace en su web.",
+      "enlace": "https://centrolocaldeidiomas.es"
+    },
+    {
+      "id": "bando-limpieza-solares",
+      "fecha": "2026-06-24",
+      "tema": "Obras",
+      "titulo": "Bando: limpieza de solares",
+      "texto": "Los propietarios de solares y terrenos tienen que mantenerlos limpios. El bando completo está en la web municipal.",
+      "enlace": "https://www.fuentedecantos.eu/2026/06/24/bando-limpieza-de-solares/"
+    }
+  ]
+}

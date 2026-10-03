@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<!-- GENERADO por scripts/aplicar.mjs desde fuente/ y los datos. No editar a mano. -->
+<html lang="es" class="sin-js densidad-puerta">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>El Ayuntamiento · Ayuntamiento de Fuente de Cantos</title>
+<meta name="description" content="Corporación municipal, pleno y concejalías del Ayuntamiento de Fuente de Cantos.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_ES">
+<meta property="og:title" content="Propuesta de web · Fuente de Cantos">
+<meta property="og:description" content="Propuesta de diseño para la web del Ayuntamiento de Fuente de Cantos. No es la web oficial.">
+<meta property="og:image" content="https://alvarotaiagu.github.io/ayuntamiento-fuente-de-cantos-web/assets/og.jpg">
+<meta name="theme-color" content="#FAF9F5">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon.png" type="image/png" sizes="64x64">
+<link rel="manifest" href="manifest.json">
+<link rel="preload" href="fonts/besley-700-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/libre-franklin-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/fuentes.css?v=03f84dac">
+<link rel="stylesheet" href="css/marca.css?v=813b9bb0">
+<link rel="stylesheet" href="css/base.css?v=42e5e1b1">
+<script>
+/* Bloqueante a propósito: lo que cambia el aspecto se decide antes del primer
+   pintado, o la página arranca de una forma y salta a otra. */
+(function () {
+  var h = document.documentElement;
+  h.className = h.className.replace('sin-js', 'con-js');
+
+  /* [MANDO DE MAQUETA] inicio */
+  /* Solo con ?revision: lo guardado no cuenta fuera de la reunión, o un móvil
+     donde se probó la versión sobria la seguiría viendo sin mando para volver. */
+  if (!/[?&]revision\b/.test(location.search)) return;
+  h.classList.add('en-revision');
+  try {
+    var d = localStorage.getItem('fuente-de-cantos-densidad');
+    if (d === 'sobria' || d === 'puerta') { h.classList.remove('densidad-puerta', 'densidad-sobria'); h.classList.add('densidad-' + d); }
+    var p = localStorage.getItem('fuente-de-cantos-paleta');
+    if (p === 'a' || p === 'b' || p === 'c') h.setAttribute('data-paleta', p);
+  } catch (e) {}
+  /* [MANDO DE MAQUETA] fin */
+})();
+</script>
+
+</head>
+<body class="pagina-ayuntamiento">
+<svg class="sprite" aria-hidden="true" focusable="false" width="0" height="0">
+  <symbol id="i-reloj" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+  <symbol id="i-calendario" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></symbol>
+  <symbol id="i-aviso" viewBox="0 0 24 24"><path d="M12 3.5 2.8 19.5h18.4L12 3.5Z"/><path d="M12 10v4.5M12 17.2v.1"/></symbol>
+  <symbol id="i-sede" viewBox="0 0 24 24"><path d="M3 9.5 12 4l9 5.5M5 10v8M9.5 10v8M14.5 10v8M19 10v8M3 20.5h18"/></symbol>
+  <symbol id="i-flecha" viewBox="0 0 24 24"><path d="M5 12h13M13 6.5l5.5 5.5-5.5 5.5"/></symbol>
+  <symbol id="i-salida" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></symbol>
+  <symbol id="i-lupa" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+  <symbol id="i-cerrar" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+  <symbol id="i-telefono" viewBox="0 0 24 24"><path d="M6.5 3.5h3l1.5 4-2 1.5a11 11 0 0 0 6 6l1.5-2 4 1.5v3a2 2 0 0 1-2 2A16 16 0 0 1 4.5 5.5a2 2 0 0 1 2-2Z"/></symbol>
+  <symbol id="i-casa" viewBox="0 0 24 24"><path d="M3.5 11 12 4l8.5 7M6 9.5V20h12V9.5M10 20v-5.5h4V20"/></symbol>
+  <symbol id="i-obra" viewBox="0 0 24 24"><path d="M3 20h18M5 20V10l4-3 4 3v10M13 13h6v7M8 13h2"/><path d="M15 4h5v4"/></symbol>
+  <symbol id="i-recibo" viewBox="0 0 24 24"><path d="M6 3h12v18l-3-2-3 2-3-2-3 2V3Z"/><path d="M9 8h6M9 12h6M9 16h3"/></symbol>
+  <symbol id="i-familia" viewBox="0 0 24 24"><circle cx="8" cy="7" r="2.5"/><circle cx="16.5" cy="8.5" r="2"/><path d="M3.5 20v-3.5a4.5 4.5 0 0 1 9 0V20M13 20v-2.5a3.5 3.5 0 0 1 7 0V20"/></symbol>
+  <symbol id="i-mensaje" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4V5Z"/><path d="M8 9.5h8M8 12.5h5"/></symbol>
+  <symbol id="i-tablon" viewBox="0 0 24 24"><rect x="3.5" y="4" width="17" height="13" rx="1.5"/><path d="M7 21l2-4M17 21l-2-4M7.5 8h9M7.5 11.5h6"/></symbol>
+  <symbol id="i-ojo" viewBox="0 0 24 24"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12Z"/><circle cx="12" cy="12" r="3"/></symbol>
+  <symbol id="i-contrato" viewBox="0 0 24 24"><path d="M6 3h8l4 4v14H6V3Z"/><path d="M14 3v4h4M9 12h6M9 15.5h6M9 19h3"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-6.5-6-6.5-11a6.5 6.5 0 0 1 13 0c0 5-6.5 11-6.5 11Z"/><circle cx="12" cy="10" r="2.3"/></symbol>
+  <symbol id="i-correo" viewBox="0 0 24 24"><rect x="3" y="5.5" width="18" height="13" rx="1.5"/><path d="m3.5 6.5 8.5 7 8.5-7"/></symbol>
+  <symbol id="i-documento" viewBox="0 0 24 24"><path d="M6 3h8l4 4v14H6V3Z"/><path d="M14 3v4h4"/></symbol>
+  <symbol id="i-abajo" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+</svg>
+
+<a class="saltar" href="#contenido">Saltar al contenido</a>
+<header class="cabecera">
+  <div class="propuesta" data-propuesta>
+    <p class="contenedor"><b>Propuesta de diseño</b> para el Ayuntamiento de Fuente de Cantos · no es la web oficial</p>
+  </div>
+  <div class="franja-urgente" data-vivo="franja" hidden></div>
+  <div class="cabecera__barra">
+    <div class="contenedor cabecera__dentro">
+      <a class="cabecera__marca" href="index.html">
+        <img class="cabecera__escudo" src="marca/escudo-160.png" width="120" height="160" alt="">
+        <span class="cabecera__nombre"><span class="cabecera__ante">Ayuntamiento de</span> Fuente de Cantos</span>
+      </a>
+      <nav class="menu" id="menu" aria-label="Principal">
+        <div class="menu__cabeza">
+          <p class="menu__titulo">Menú</p>
+          <button class="boton-icono menu__cerrar" type="button" data-cerrar-menu><svg class="icono" aria-hidden="true"><use href="#i-cerrar"/></svg><span class="sr">Cerrar el menú</span></button>
+        </div>
+        <ul class="menu__lista">
+          <li><a class="menu__enlace" href="ayuntamiento.html" aria-current="page">El Ayuntamiento</a></li>
+          <li><a class="menu__enlace" href="tramites.html">Trámites</a></li>
+          <li><a class="menu__enlace" href="avisos.html">Avisos</a></li>
+          <li><a class="menu__enlace" href="noticias.html">Noticias</a></li>
+          <li><a class="menu__enlace" href="agenda.html">Agenda</a></li>
+          <li><a class="menu__enlace" href="pueblo.html">El pueblo</a></li>
+          <li><a class="menu__enlace" href="telefonos.html">Teléfonos</a></li>
+          <li><a class="menu__enlace" href="contacto.html">Contacto</a></li>
+
+        </ul>
+        <a class="boton boton--marca menu__sede" href="https://fuentedecantos.sedelectronica.es"><svg class="icono" aria-hidden="true"><use href="#i-sede"/></svg>Sede electrónica</a>
+      </nav>
+      <div class="cabecera__acciones">
+        <a class="boton boton--marca cabecera__sede" href="https://fuentedecantos.sedelectronica.es"><svg class="icono" aria-hidden="true"><use href="#i-sede"/></svg>Sede electrónica</a>
+        <a class="boton-icono" href="tramites.html#buscar" data-abrir-buscador><svg class="icono" aria-hidden="true"><use href="#i-lupa"/></svg><span class="sr">Buscar un trámite</span></a>
+        <button class="boton-menu" type="button" aria-expanded="false" aria-controls="menu" data-boton-menu hidden><svg class="icono" aria-hidden="true"><use href="#i-menu"/></svg>Menú</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<dialog class="buscador" id="buscador" aria-labelledby="buscador-titulo">
+  <div class="buscador__cabeza">
+    <h2 class="buscador__titulo" id="buscador-titulo">Buscar un trámite</h2>
+    <form method="dialog"><button class="boton-icono" type="submit"><svg class="icono" aria-hidden="true"><use href="#i-cerrar"/></svg><span class="sr">Cerrar el buscador</span></button></form>
+  </div>
+  <div class="campo" role="search">
+    <label class="campo__etiqueta" for="buscador-campo">¿Qué necesita hacer?</label>
+    <input class="campo__entrada" id="buscador-campo" type="search" autocomplete="off" spellcheck="false" placeholder="Empadronarme, pagar un recibo, una obra…" aria-describedby="buscador-ayuda" data-buscador-campo>
+  </div>
+  <p class="campo__ayuda" id="buscador-ayuda">Escríbalo con sus palabras. Cada resultado le lleva a su trámite en la sede electrónica.</p>
+  <p class="buscador__cuenta" role="status" data-buscador-cuenta></p>
+  <ul class="resultados" data-buscador-resultados></ul>
+  <p class="buscador__pie"><a href="tramites.html#todos">Ver la lista de todos los trámites</a></p>
+</dialog>
+
+<main id="contenido" tabindex="-1">
+<div class="cabeza-pagina">
+  <div class="contenedor">
+    <nav class="migas" aria-label="Usted está aquí">
+      <ol>
+        <li><a href="index.html">Inicio</a></li>
+
+        <li><span aria-current="page">El Ayuntamiento</span></li>
+      </ol>
+    </nav>
+    <h1 class="cabeza-pagina__titulo" id="titulo-pagina">El Ayuntamiento</h1>
+    <p class="entradilla">Quién gobierna, quién se ocupa de cada asunto y cómo contactar con el Ayuntamiento de Fuente de Cantos.</p>
+  </div>
+</div>
+
+<section class="seccion seccion--primera" aria-labelledby="t-alcaldia">
+  <div class="contenedor alcaldia">
+    <figure class="retrato">
+      <div class="retrato__hueco arco-opcional"><img class="retrato__escudo" src="marca/escudo-480.png" width="358" height="480" alt=""></div>
+      <figcaption class="retrato__pie">Aquí irá el retrato oficial de la alcaldía.</figcaption>
+    </figure>
+    <div class="alcaldia__texto">
+      <h2 class="seccion__titulo" id="t-alcaldia">La alcaldía</h2>
+      <blockquote class="saluda" data-dato-ejemplo="saluda"><p>Esta web es la puerta del Ayuntamiento abierta todo el día. Aquí puede hacer sus trámites sin desplazarse, enterarse de lo que pasa en el pueblo y saber a quién dirigirse en cada caso. <span class="ejemplo">Ejemplo</span></p></blockquote>
+      <p class="saluda__firma"><b>Carmen Pagador López</b><span>Alcaldesa-Presidenta · PP</span></p>
+    </div>
+  </div>
+</section>
+
+<section class="seccion" id="quien" aria-labelledby="t-quien">
+  <div class="contenedor">
+    <h2 class="seccion__titulo" id="t-quien">¿Quién se ocupa de qué?</h2>
+    <p class="seccion__entradilla">Busque su asunto a la izquierda: a la derecha está quien lo lleva en el gobierno municipal.</p>
+    <ul class="quien">
+      <li class="quien__fila">
+  <p class="quien__tema">Obras, calles, cementerio y fiestas</p>
+  <p class="quien__persona"><span class="quien__iniciales" aria-hidden="true">RD</span><span><b>Rodrigo Delgado Lora</b><span class="quien__cargo">1.er Teniente de Alcalde · Festejos, Obras Públicas y Cementerio</span></span></p>
+</li>
+<li class="quien__fila">
+  <p class="quien__tema">Campo, caminos, caza y pesca</p>
+  <p class="quien__persona"><span class="quien__iniciales" aria-hidden="true">AB</span><span><b>Antonio Becerra Carrasco</b><span class="quien__cargo">3.er Teniente de Alcalde · Agricultura y Ganadería, Caminos, Caza y Pesca</span></span></p>
+</li>
+<li class="quien__fila">
+  <p class="quien__tema">Cultura, turismo y biblioteca</p>
+  <p class="quien__persona"><span class="quien__iniciales" aria-hidden="true">LD</span><span><b>Luisa María Durán Pagador</b><span class="quien__cargo">Concejala de Cultura, Turismo, Archivo y Biblioteca</span></span></p>
+</li>
+<li class="quien__fila">
+  <p class="quien__tema">Parques, basura y reciclaje</p>
+  <p class="quien__persona"><span class="quien__iniciales" aria-hidden="true">NM</span><span><b>Noelia Montaño Tomillo</b><span class="quien__cargo">Concejala de Medio Ambiente, Parques, Jardines, Gestión de Residuos y Reciclaje</span></span></p>
+</li>
+<li class="quien__fila">
+  <p class="quien__tema">Deporte y juventud</p>
+  <p class="quien__persona"><span class="quien__iniciales" aria-hidden="true">IG</span><span><b>Inmaculada González Muñoz</b><span class="quien__cargo">2.ª Teniente de Alcalde · Juventud y Deporte</span></span></p>
+</li>
+<li class="quien__fila">
+  <p class="quien__tema">Colegios y escuela infantil</p>
+  <p class="quien__persona"><span class="quien__iniciales" aria-hidden="true">CP</span><span><b>Concepción Pagador Bayón</b><span class="quien__cargo">Concejala de Educación</span></span></p>
+</li>
+<li class="quien__fila">
+  <p class="quien__tema">Salud comunitaria (Ciudad Saludable)</p>
+  <p class="quien__persona"><span class="quien__iniciales" aria-hidden="true">NM</span><span><b>Noelia Montaño Tomillo</b><span class="quien__cargo">Representa al Ayuntamiento en la Red de Ciudades Saludables</span></span></p>
+</li>
+<li class="quien__fila">
+  <p class="quien__tema">Residencia, centro ocupacional y mancomunidad</p>
+  <p class="quien__persona"><span class="quien__iniciales" aria-hidden="true">CP</span><span><b>Carmen Pagador López</b><span class="quien__cargo">Alcaldesa · representa al Ayuntamiento en esos órganos</span></span></p>
+</li>
+
+    </ul>
+  </div>
+</section>
+
+<section class="seccion" aria-labelledby="t-pleno">
+  <div class="contenedor">
+    <h2 class="seccion__titulo" id="t-pleno">El pleno</h2>
+    <p class="seccion__entradilla">Gobierna el Partido Popular con mayoría absoluta: 7 de los 11 concejales. Corporación constituida el 17 de junio de 2023; cargos y delegaciones según el BOP de Badajoz.</p>
+    <div class="pleno">
+      <figure class="pleno__figura">
+        <svg class="hemiciclo" viewBox="28 28 244 140" role="img" aria-labelledby="hemiciclo-t hemiciclo-d"><title id="hemiciclo-t">Reparto del pleno</title><desc id="hemiciclo-d">Pleno de 11 concejales. Gobierno: PP (7). Oposición: PSOE (3) y JUEX (1).</desc><defs><pattern id="trama-pp" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#1F5FA8"/></pattern><pattern id="trama-psoe" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#C8402A"/><path d="M0 4h8M4 0v8" stroke="#fff" stroke-width="1.3"/></pattern><pattern id="trama-juex" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#5A6B7A"/><circle cx="4" cy="4" r="1.5" fill="#fff"/></pattern></defs><circle cx="51.0" cy="135.8" r="13" fill="url(#trama-pp)" stroke="#1F5FA8" stroke-width="1.5"/><circle cx="59.0" cy="108.5" r="13" fill="url(#trama-pp)" stroke="#1F5FA8" stroke-width="1.5"/><circle cx="74.4" cy="84.5" r="13" fill="url(#trama-pp)" stroke="#1F5FA8" stroke-width="1.5"/><circle cx="95.9" cy="65.9" r="13" fill="url(#trama-pp)" stroke="#1F5FA8" stroke-width="1.5"/><circle cx="121.8" cy="54.1" r="13" fill="url(#trama-pp)" stroke="#1F5FA8" stroke-width="1.5"/><circle cx="150.0" cy="50.0" r="13" fill="url(#trama-pp)" stroke="#1F5FA8" stroke-width="1.5"/><circle cx="178.2" cy="54.1" r="13" fill="url(#trama-pp)" stroke="#1F5FA8" stroke-width="1.5"/><circle cx="204.1" cy="65.9" r="13" fill="url(#trama-psoe)" stroke="#C8402A" stroke-width="1.5"/><circle cx="225.6" cy="84.5" r="13" fill="url(#trama-psoe)" stroke="#C8402A" stroke-width="1.5"/><circle cx="241.0" cy="108.5" r="13" fill="url(#trama-psoe)" stroke="#C8402A" stroke-width="1.5"/><circle cx="249.0" cy="135.8" r="13" fill="url(#trama-juex)" stroke="#5A6B7A" stroke-width="1.5"/><text class="hemiciclo__total" x="150" y="138" text-anchor="middle" font-size="40">11</text><text class="hemiciclo__rotulo" x="150" y="158" text-anchor="middle" font-size="12">concejales</text></svg>
+        <figcaption class="sr">Pleno de 11 concejales. Gobierno: PP (7). Oposición: PSOE (3) y JUEX (1).</figcaption>
+      </figure>
+      <ul class="pleno__leyenda">
+        <li><svg class="pleno__muestra" viewBox="0 0 28 28" aria-hidden="true"><rect x="1" y="1" width="26" height="26" rx="13" fill="url(#trama-pp)" stroke="#1F5FA8" stroke-width="1.5"/></svg><span><b>PP</b> · 7 concejales<span class="pleno__papel">Partido Popular · gobierno</span></span></li>
+        <li><svg class="pleno__muestra" viewBox="0 0 28 28" aria-hidden="true"><rect x="1" y="1" width="26" height="26" rx="13" fill="url(#trama-psoe)" stroke="#C8402A" stroke-width="1.5"/></svg><span><b>PSOE</b> · 3 concejales<span class="pleno__papel">Partido Socialista · oposición</span></span></li>
+        <li><svg class="pleno__muestra" viewBox="0 0 28 28" aria-hidden="true"><rect x="1" y="1" width="26" height="26" rx="13" fill="url(#trama-juex)" stroke="#5A6B7A" stroke-width="1.5"/></svg><span><b>JUEX</b> · 1 concejal<span class="pleno__papel">Juntos por Extremadura · oposición</span></span></li>
+
+      </ul>
+    </div>
+    <div class="grupos">
+      <div class="grupo">
+        <h3 class="grupo__titulo"><svg class="pleno__muestra" viewBox="0 0 28 28" aria-hidden="true"><rect x="1" y="1" width="26" height="26" rx="13" fill="url(#trama-pp)" stroke="#1F5FA8" stroke-width="1.5"/></svg>Partido Popular (PP)</h3>
+        <ul class="grupo__lista">
+          <li><b>Carmen Pagador López</b><span>Alcaldesa-Presidenta</span></li><li><b>Rodrigo Delgado Lora</b><span>1.er Teniente de Alcalde</span></li><li><b>Inmaculada González Muñoz</b><span>2.ª Teniente de Alcalde</span></li><li><b>Antonio Becerra Carrasco</b><span>3.er Teniente de Alcalde</span></li><li><b>Luisa María Durán Pagador</b><span>Concejala</span></li><li><b>Concepción Pagador Bayón</b><span>Concejala</span></li><li><b>Noelia Montaño Tomillo</b><span>Concejala</span></li>
+        </ul>
+      </div>
+      <div class="grupo">
+        <h3 class="grupo__titulo"><svg class="pleno__muestra" viewBox="0 0 28 28" aria-hidden="true"><rect x="1" y="1" width="26" height="26" rx="13" fill="url(#trama-psoe)" stroke="#C8402A" stroke-width="1.5"/></svg>Partido Socialista (PSOE)</h3>
+        <ul class="grupo__lista">
+          <li><b>Lucía Ibarra Roblas</b><span>Concejala</span></li><li><b>Manuel Teófilo Soto Durán</b><span>Concejal</span></li><li><b>Ana Viera Yerga</b><span>Concejala</span></li>
+        </ul>
+      </div>
+      <div class="grupo">
+        <h3 class="grupo__titulo"><svg class="pleno__muestra" viewBox="0 0 28 28" aria-hidden="true"><rect x="1" y="1" width="26" height="26" rx="13" fill="url(#trama-juex)" stroke="#5A6B7A" stroke-width="1.5"/></svg>Juntos por Extremadura (JUEX)</h3>
+        <ul class="grupo__lista">
+          <li><b>Ernesto Iglesias Santos</b><span>Concejal</span></li>
+        </ul>
+      </div>
+
+    </div>
+    <p class="nota-fuente">Secretaría-Intervención: Paula Cintado García, secretaria-interventora.</p>
+
+  </div>
+</section>
+
+<section class="seccion" aria-labelledby="t-concejalias">
+  <div class="contenedor">
+    <h2 class="seccion__titulo" id="t-concejalias">Concejalías</h2>
+    <ul class="fichas">
+      <li class="ficha">
+        <h3 class="ficha__titulo">Festejos, Obras Públicas y Cementerio</h3>
+        <p class="ficha__persona"><b>Rodrigo Delgado Lora</b><span>1.er Teniente de Alcalde · PP</span></p>
+      </li>
+      <li class="ficha">
+        <h3 class="ficha__titulo">Juventud y Deporte</h3>
+        <p class="ficha__persona"><b>Inmaculada González Muñoz</b><span>2.ª Teniente de Alcalde · PP</span></p>
+      </li>
+      <li class="ficha">
+        <h3 class="ficha__titulo">Agricultura y Ganadería, Caminos, Caza y Pesca</h3>
+        <p class="ficha__persona"><b>Antonio Becerra Carrasco</b><span>3.er Teniente de Alcalde · PP</span></p>
+      </li>
+      <li class="ficha">
+        <h3 class="ficha__titulo">Cultura, Turismo, Archivo y Biblioteca</h3>
+        <p class="ficha__persona"><b>Luisa María Durán Pagador</b><span>Concejala · PP</span></p>
+      </li>
+      <li class="ficha">
+        <h3 class="ficha__titulo">Educación</h3>
+        <p class="ficha__persona"><b>Concepción Pagador Bayón</b><span>Concejala · PP</span></p>
+      </li>
+      <li class="ficha">
+        <h3 class="ficha__titulo">Medio Ambiente, Parques, Jardines, Gestión de Residuos y Reciclaje</h3>
+        <p class="ficha__persona"><b>Noelia Montaño Tomillo</b><span>Concejala · PP</span></p>
+      </li>
+
+    </ul>
+  </div>
+</section>
+
+<section class="seccion" id="documentos" aria-labelledby="t-documentos">
+  <div class="contenedor">
+    <h2 class="seccion__titulo" id="t-documentos">Normativa y documentos</h2>
+    <p class="seccion__entradilla">Ordenanzas, actas y otros documentos del Ayuntamiento. Lo publicado oficialmente está en el <a href="https://fuentedecantos.sedelectronica.es/board">tablón<span class="sr">, se abre la sede electrónica</span></a> y en el <a href="https://fuentedecantos.sedelectronica.es/transparency">portal de transparencia<span class="sr">, se abre la sede electrónica</span></a>.</p>
+    <div class="temas">
+      <details class="tema">
+        <summary class="tema__resumen">
+          <svg class="icono tema__icono" aria-hidden="true"><use href="#i-documento"/></svg>
+          <span class="tema__textos"><span class="tema__nombre">Ordenanzas fiscales</span><span class="tema__nota">Impuestos, tasas y precios públicos · 32 documentos</span></span>
+          <svg class="icono tema__chevron" aria-hidden="true"><use href="#i-abajo"/></svg>
+        </summary>
+        <ul class="tema__lista">
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/1.-ORDENANZA-FISCAL-REGULADORA-DEL-IMPUESTO-SOBRE-ACTIVIDADES-ECONOMICAS-IAE-2-copia.pdf">1. Ordenanza fiscal reguladora del impuesto sobre actividades económicas (IAE)<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/2.-ORDENANZA-FISCAL-REGULADORA-DEL-IMPUESTO-SOBRE-BIENES-INMUEBLES-IBI-1.pdf">2. Ordenanza fiscal reguladora del impuesto sobre bienes inmuebles (IBI)<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/3.-ORDENANZA-FISCAL-REGULADORA-DEL-IMPUESTO-SOBRE-CONSTRUCCIONES-INSTALACIONES-Y-OBRAS.pdf">3. Ordenanza fiscal reguladora del impuesto sobre construcciones, instalaciones y obras<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/4.-ORDENANZA-FISCAL-REGULADORA-DEL-IMPUESTO-SOBRE-EL-INCREMENTO-DE-VALOR-DE-LOS-TERRENOS-DE-NATURALEZA-URBANA.pdf">4. Ordenanza fiscal reguladora del impuesto sobre el incremento de valor de los terrenos de naturaleza urbana<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/5.-ORDENANZA-FISCAL-REGULADORA-DEL-IMPUESTO-SOBRE-VEHICULOS-DE-TRACCION-MECANICA-ICV-1.pdf">5. Ordenanza fiscal reguladora del impuesto sobre vehículos de tracción mecánica (ICV)<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/6.-ORDENANZA-FISCAL-REGULADORA-DE-LA-TASA-POR-PRESTACION-DEL-SERVICIO-DE-DESINFECCION-DE-VEHICULOS-DE-GANADO.pdf">6. Ordenanza fiscal reguladora de la tasa por prestación del servicio de desinfección de vehículos de ganado<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/7.-ORDENANZA-FISCAL-REGULADORA-DE-LA-TASA-POR-LA-REALIZACION-DE-ACTIVIDADES-ADMINISTRATIVAS-DE-VERIFICACION-Y-CONTROL-DE-ACTUACIONES-URBANISTICAS-SUJETAS-AL-REGIMEN-DE-COMUNICACION-PREVIA.pdf">7. Ordenanza fiscal reguladora de la tasa por la realización de actividades administrativas de verificación y control de actuaciones urbanísticas sujetas al régimen de comunicación previa<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/8.-TASA-POR-LA-RECOGIDA-DE-RESIDUOS-SOLIDOS-URBANOS-TRATAMIENTO-Y-ELIMINACION-DE-LOS-MISMOS-MONDA-DE-POZOS-NEGROS-Y-LIMPIEZA-EN-CALLES-PARTICULARES-RECOGIDA-DE-CARTONES-Y-VOLUMINOSOS-1.pdf">8. Tasa por la recogida de residuos sólidos urbanos, tratamiento y eliminación de los mismos, monda de pozos negros y limpieza en calles particulares (recogida de cartones y voluminosos)<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/9.-TASA-POR-PRESTACION-DEL-SERVICIO-DE-CEMENTERIOS-LOCALES-CONDUCCION-DE-CADAVERES-Y-OTROS-SERVICIOS-FUNEBRES-DE-CARACTER-LOCAL-1.pdf">9. Tasa por prestación del servicio de cementerios locales, conducción de cadáveres y otros servicios fúnebres de carácter local<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/10.-TASA-POR-UTILIZACION-DE-COLUMNAS-CARTELES-Y-OTRAS-INSTALACIONES-LOCALES-ANALOGAS-PARA-LA-EXHIBICION-DE-ANUNCIO-1.pdf">10. Tasa por utilización de columnas, carteles y otras instalaciones locales análogas para la exhibición de anuncio<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/11.-TASA-POR-TENDIDOS-TUBERIAS-Y-GALERIAS-PARA-LA-CONDUCCION-DE-ENERGIA-ELECTRICA-ETC-1.pdf">11. Tasa por tendidos, tuberías y galerías para la conducción de energía eléctrica, etc<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/12TASA1-1.pdf">12. Tasa por el servicio de matadero, lonjas y mercados<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/13.-TASA-POR-OCUPACION-DE-TERRENOS-DE-USO-PUBLICO-LOCAL-CON-MERCANCIAS-MATERIALES-DE-CONSTRUCCION-ESCOMBROS-VALLAS-PUNTALES-ASNILLAS-ANDAMIOS-Y-OTRAS-INSTALACIONES-ANALOGAS-1.pdf">13. Tasa por ocupación de terrenos de uso público local con mercancías, materiales de construcción, escombros, vallas, puntales, asnillas, andamios y otras instalaciones análogas<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/14.-TASA-POR-OCUPACION-DE-TERRENOS-DE-USO-PUBLICO-CON-MESAS-SILLAS-TRIBUNAS-TABLADOS-Y-OTROS-ELEMENTOS-ANALOGOS-CON-FINALIDAD-LUCRATIVA.pdf">14. Tasa por ocupación de terrenos de uso público con mesas, sillas, tribunas, tablados y otros elementos análogos con finalidad lucrativa<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/15.-TASA-POR-ENTRADA-DE-VEHICULOS-A-TRAVES-DE-LAS-ACERAS-Y-RESERVAS-DE-VIA-PUBLICA-PARA-APARCAMIENTO-EXCLUSIVO-PARADA-DE-VEHICULOS-CARGA-Y-DESCARGA-DE-MERCANCIA-DE-CUALQUIER-CLASE-1.pdf">15. Tasa por entrada de vehículos a través de las aceras y reservas de vía pública para aparcamiento exclusivo, parada de vehículos, carga y descarga de mercancía de cualquier clase<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/16.-TASA-POR-INSTALACIONES-DE-PUESTOS-BARRACASCASETAS-DE-VENTA-ESPECTACULOS-ATRACCIONES-O-RECREO-SITUADOS-EN-TERRENO-DE-USO-PUBLICO-ASI-COMO-INDUSTRIAS-CALLEJERAS-Y-AMBULANTES.pdf">16. Tasa por instalaciones de puestos, barracas, casetas de venta, espectáculos, atracciones o recreo, situados en terreno de uso público, así como industrias callejeras y ambulantes<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/17.-TASA-POR-EL-SERVICIO-DE-VOZ-PUBLICA-PRESTACION-DEL-SERVICIO-DE-RADIODIFUCION-EMISORA-MUNICIPAL-1.pdf">17. Tasa por el servicio de voz pública, prestación del servicio de radiodifusión, emisora municipal<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/18.-TASA-POR-UTILIZACION-DE-CASAS-DE-BANOS-DUCHAS-PISCINAS-INSTALACIONES-DEPORTIVAS-Y-OTROS-ESTABLECIMIENTOS-DE-NATURALEZA-ANALOGAS-POLIDEPORTIVO-GIMNASIO-PISCINAS-Y-ESCUELAS-MUNICIPALES.pdf">18. Tasa por utilización de casas de baños, duchas, piscinas, instalaciones deportivas y otros establecimientos de naturaleza análogas polideportivo, gimnasio, piscinas y escuelas municipales<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/19.-TASA-POR-AUTORIZACION-PARA-UTILIZAR-EN-PLACAS-PATENTES-Y-OTROS-DISTINTIVOS-ANALOGOS-EL-ESCUDO-MUNICIPAL-1.pdf">19. Tasa por autorización para utilizar en placas, patentes y otros distintivos análogos, el escudo municipal<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/20.-TASA-POR-DOCUMENTOS-QUE-EXPIDAN-O-DE-QUE-ENTIENDAN-LAS-ADMINISTRACIONES-O-AUTORIDADES-LOCALES-A-INSTANCIA-DE-PARTE-1.pdf">20. Tasa por documentos que expidan o de que entiendan las administraciones o autoridades locales a instancia de parte<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/21.-TASA-POR-OTORGAMIENTOS-O-AUTORIZACIONES-ADMINISTRATIVAS-DE-AUTOTAXIS-Y-DEMAS-VEHICULOS-DE-ALQUILER-1.pdf">21. Tasa por otorgamientos o autorizaciones administrativas de autotaxis y demás vehículos de alquiler<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/22.-TASA-POR-LOS-SERVICIOS-DE-ALCANTARILLADOS-ASI-COMO-DE-TRATAMIENTO-Y-DEPURACION-DE-AGUAS-RESIDUALES-INCLUIDA-LA-VIGILANCIA-ESPECIAL-DE-ALCANTARILLAS-PARTICULARES-1.pdf">22. Tasa por los servicios de alcantarillados, así como de tratamiento y depuración de aguas residuales, incluida la vigilancia especial de alcantarillas particulares<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/23.-TASA-POR-OTORGAMIENTO-DE-LICENCIA-DE-APERTURA-DE-ESTABLECIMIENTOS-1.pdf">23. Tasa por otorgamiento de licencia de apertura de establecimientos<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/24.-TASA-POR-APERTURA-DE-CALICATAS-O-ZANJAS-EN-TERRENOS-DE-USO-PUBLICO-Y-CUALQUIER-REMOCION-DEL-PAVIMENTO-O-ACERAS-EN-LA-VIA-PUBLICA-1.pdf">24. Tasa por apertura de calicatas o zanjas en terrenos de uso público y cualquier remoción del pavimento o aceras en la vía pública<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/25.-TASA-POR-PRESTACION-DEL-SERVICIO-DE-TELEASISTENCIA-1.pdf">25. Tasa por prestación del servicio de teleasistencia<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/26.-TASAS-POR-LA-ASISTENCIA-Y-ESTANCIA-EN-HOGARES-Y-RESIDENCIAS-DE-ANCIANOS-GUARDERIAS-INFANTILES-ALBERGUES-Y-OTROS-ESTABLECIMIENTOS-DE-NATURALEZA-ANALOGA.pdf">26. Tasas por la asistencia y estancia en hogares y residencias de ancianos, guarderías infantiles, albergues y otros establecimientos de naturaleza análoga<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/27.-TASA-POR-LICENCIAS-URBANISTICAS-EXIGIDAS-POR-LA-LEGISLACION-DEL-SUELO-Y-ORDENACION-URBANA-1.pdf">27. Tasa por licencias urbanísticas exigidas por la legislación del suelo y ordenación urbana<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/28.-TASA-POR-APROVECHAMIENTO-ESPECIAL-DEL-DOMINIO-PUBLICO-SUMINISTRO-ELECTRICO-EN-FERIAS.pdf">28. Tasa por aprovechamiento especial del dominio público (suministro eléctrico en ferias)<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/29.-ORDENANZA-FISCAL-REGULADORA-DE-LA-TASA-QUE-RIGE-EL-ESTACIONAMIENTO-EN-LA-ZONA-DE-PUNTO-DE-RECICLAJE-DE-AUTOCARAVANAS.pdf">29. Ordenanza fiscal reguladora de la tasa que rige el estacionamiento en la zona de punto de reciclaje de autocaravanas<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/30.ORDENANZA-FISCAL-REGULADORA-DE-LA-TASA-POR-PRESTACION-DEL-SERVICIO-DE-RESIDENCIA-PARA-PERSONAS-CON-DISCAPACIDAD.pdf">30. Ordenanza fiscal reguladora de la tasa por prestación del servicio de residencia para personas con discapacidad<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/31.-PRECIO-PUBLCIO-POR-LA-CESION-DE-LA-ESCUELA-DE-HOSTELERIA-ANTIGUO-ALBERGUE-PARA-USSO-DE-CARACTER-PRIVADO-.pdf">31. Precio público por la cesión de la escuela de hostelería (antiguo albergue) para uso de carácter privado<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/32.-TASA-POR-LA-CESION-TEMPORAL-DE-LOS-EDIFICIOS-PUBLICOS-MUNICIPALES.pdf">32. Tasa por la cesión temporal de los edificios públicos municipales<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+
+        </ul>
+      </details>
+      <details class="tema">
+        <summary class="tema__resumen">
+          <svg class="icono tema__icono" aria-hidden="true"><use href="#i-documento"/></svg>
+          <span class="tema__textos"><span class="tema__nombre">Ordenanzas y reglamentos</span><span class="tema__nota">Convivencia, tráfico, caminos, subvenciones · 14 documentos</span></span>
+          <svg class="icono tema__chevron" aria-hidden="true"><use href="#i-abajo"/></svg>
+        </summary>
+        <ul class="tema__lista">
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/1.-ORDENANZA-GENERAL-DE-SUBVENCIONES.pdf">1. Ordenanza general de subvenciones<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/2.-ORDENANZA-VERTIDOS-A-LA-RED-DE-ALCANTARILLADO.pdf">2. Ordenanza vertidos a la red de alcantarillado<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/3.-ORDENANZA-MUNICIPAL-DE-POLICIA-Y-BUEN-GOBIERNO.pdf">3. Ordenanza municipal de policía y buen gobierno<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/4.-ORDENANZA-REGULADORA-DE-LA-VENTA-AMBULANTE.pdf">4. Ordenanza reguladora de la venta ambulante<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/5.-REGLAMENTO-ESPECIAL-DE-HONORES-Y-DISTINCIONES.pdf">5. Reglamento especial de honores y distinciones<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/6.-ORDENANZA-MUNICIPAL-REGULADORA-DEL-TRANSITO-Y-ESTACIONAMIENTO-DE-AUTOCARAVANAS.pdf">6. Ordenanza municipal reguladora del tránsito y estacionamiento de autocaravanas<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/7.-REGLAMENTO-DE-FUNCIONAMIENTO-DE-LA-JUNTA-PERICIAL-MUNICIPAL-DEL-CATASTRO-INMOBILIARIO-RUSTICO.pdf">7. Reglamento de funcionamiento de la junta pericial municipal del Catastro inmobiliario rústico<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/8.-Reglamento-de-organizacion-y-funcionamiento-del-centro-juvenil.pdf">8. Reglamento de organización y funcionamiento del centro juvenil<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/9.-Ordenanza-municipal-de-caminos-y-vias-rurales.pdf">9. Ordenanza municipal de caminos y vías rurales<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/10.-ORDENANZA-REGULADORA-DE-LA-TARJETA-DE-ESTACIONAMIENTO-DE-VEHICULOS-PARA-PERSONAS-CON-DISCAPACIDAD-QUE-PRESENTEN-MOVILIDAD-REDUCIDA-EN-EXTREMADURA.pdf">10. Ordenanza reguladora de la tarjeta de estacionamiento de vehículos para personas con discapacidad que presenten movilidad reducida en Extremadura<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/11.-Ordenanza-sobre-trafico-circulacion-de-vehiculos-a-motor-y-seguridad-vial.pdf">11. Ordenanza sobre tráfico, circulación de vehículos a motor y seguridad vial<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/12.-Reglamento-regulador-de-la-carrera-profesional-horizontal-de-los-empleados-publicos.pdf">12. Reglamento regulador de la carrera profesional horizontal de los empleados públicos<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/13.-Reglamento-interno-de-organizacion-y-funcionamiento-del-Comite-de-Seguridad-y-Salud.pdf">13. Reglamento interno de organización y funcionamiento del Comité de Seguridad y Salud<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/14.-Reglamento-de-Registro-Electronico.pdf">14. Reglamento de registro electrónico<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+
+        </ul>
+      </details>
+      <details class="tema">
+        <summary class="tema__resumen">
+          <svg class="icono tema__icono" aria-hidden="true"><use href="#i-documento"/></svg>
+          <span class="tema__textos"><span class="tema__nombre">Reglamentos de los servicios</span><span class="tema__nota">Piscina, residencia, centro ocupacional, punto limpio · 6 documentos</span></span>
+          <svg class="icono tema__chevron" aria-hidden="true"><use href="#i-abajo"/></svg>
+        </summary>
+        <ul class="tema__lista">
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/A1.-RRI-PISCINA-MUNICIPAL.pdf">A1. Reglamento de régimen interno: piscina municipal<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/A2.-RRI-CENTRO-OCUPACIONAL-FRANCISCO-ASUAR.pdf">A2. Reglamento de régimen interno: centro ocupacional Francisco Asuar<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/A3.-RRI-Residencia-de-mayores-Nuestra-Senora-de-Guadalupe.pdf">A3. Reglamento de régimen interno: residencia de mayores Nuestra Señora de Guadalupe<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/A4.-RRI-FUNCIONAMIENTO-DEL-PUNTO-LIMPIO.pdf">A4. Reglamento de régimen interno: punto limpio<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/A5.-RRI-EPD-RESBAR-23.24.pdf">A5. Reglamento de régimen interno: EPD RESBAR 23.24<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/09/A6.-RRI-COLABORATIVO-RURAL-RESURB-24.pdf">A6. Reglamento de régimen interno: colaborativo rural RESURB 24<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+
+        </ul>
+      </details>
+      <details class="tema">
+        <summary class="tema__resumen">
+          <svg class="icono tema__icono" aria-hidden="true"><use href="#i-documento"/></svg>
+          <span class="tema__textos"><span class="tema__nombre">Plenos y decretos</span><span class="tema__nota">Las actas de 2026 están en el tablón · 5 documentos</span></span>
+          <svg class="icono tema__chevron" aria-hidden="true"><use href="#i-abajo"/></svg>
+        </summary>
+        <ul class="tema__lista">
+          <li><a class="enlace-tramite" href="https://drive.google.com/drive/folders/1o5dj5A0DWD8WUoOxZTUeeFzFPfrwLIec?usp=sharing">Actas de los plenos de 2003 a 2024 (Google Drive)<span class="sr">, se abre otra web</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://www.dropbox.com/sh/7rgrfkolkj0jqxb/AACLIprQXOusNj5ExXmqPoVMa?dl=0">Actas de 2017 (Dropbox)<span class="sr">, se abre otra web</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://www.dropbox.com/sh/xp0fsv7729u3qsm/AAATJzfQcgVu17RDqNiFEixaa?dl=0">Actas de 2016 (Dropbox)<span class="sr">, se abre otra web</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://www.dropbox.com/sh/v2ubzujtp8vw14u/AAAbAlrpK4h2DFxmwYQeVvw5a?dl=0">Actas de 2015 (Dropbox)<span class="sr">, se abre otra web</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+          <li><a class="enlace-tramite" href="https://www.dropbox.com/sh/nuvu6868na1vqld/AABCylugH4-lPx6e__ws3u5-a?dl=0">Decretos de la Alcaldía (Dropbox)<span class="sr">, se abre otra web</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+
+        </ul>
+      </details>
+      <details class="tema">
+        <summary class="tema__resumen">
+          <svg class="icono tema__icono" aria-hidden="true"><use href="#i-documento"/></svg>
+          <span class="tema__textos"><span class="tema__nombre">Basura y reciclaje</span><span class="tema__nota">1 documento</span></span>
+          <svg class="icono tema__chevron" aria-hidden="true"><use href="#i-abajo"/></svg>
+        </summary>
+        <ul class="tema__lista">
+          <li><a class="enlace-tramite" href="https://usercontent.one/wp/www.fuentedecantos.eu/wp-content/uploads/2024/06/GUIA-DE-RESIDUOS2.pdf">Guía de residuos: qué va en cada contenedor · junio de 2024<span class="sr">, documento en PDF</span><span class="etiqueta-pdf" aria-hidden="true">PDF</span><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg></a></li>
+
+        </ul>
+      </details>
+
+    </div>
+  </div>
+</section>
+
+<section class="seccion" aria-labelledby="t-horario">
+  <div class="contenedor horario-ayto">
+    <div>
+      <h2 class="seccion__titulo" id="t-horario">Horario y contacto</h2>
+      <div class="estado-ayto" data-vivo="servicio" data-clave="ayuntamiento"><p class="estado estado--servicio esta-cerrado"><span class="estado__punto" aria-hidden="true"></span><b>Cerrado ahora</b> · abre el lunes a las 9:00</p></div>
+      <dl class="datos">
+        <div data-dato-ejemplo="horario"><dt>Horario de atención</dt><dd>Lunes a viernes, de 9:00 a 14:00 <span class="ejemplo">Ejemplo</span></dd></div>
+        <div><dt>Dirección</dt><dd>Plaza de la Constitución, 1 · 06240 Fuente de Cantos</dd></div>
+        <div><dt>Teléfono</dt><dd><a href="tel:+34924500211">924 500 211</a></dd></div>
+        <div><dt>Correo</dt><dd><a class="rompe" href="mailto:ayuntamiento@fuentedecantos.es">ayuntamiento@fuentedecantos.es</a></dd></div>
+      </dl>
+    </div>
+    <div class="tarjeta">
+      <h3 class="tarjeta__titulo">Presentar un escrito</h3>
+      <p>Cualquier solicitud se puede presentar en la sede electrónica, a cualquier hora, con la instancia general.</p>
+      <a class="boton boton--marca" href="https://fuentedecantos.sedelectronica.es/catalog/t/5161fa8d-970e-4b48-a506-b2ac34ceafe5"><svg class="icono" aria-hidden="true"><use href="#i-salida"/></svg>Instancia general<span class="sr">, se abre la sede electrónica</span></a>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="pie">
+  <section class="sede-franja" aria-labelledby="t-sede">
+    <div class="contenedor">
+      <h2 class="sede-franja__titulo" id="t-sede">Sede electrónica e información pública</h2>
+      <ul class="sede-franja__lista">
+        <li><a class="sede-franja__enlace" href="https://fuentedecantos.sedelectronica.es"><svg class="icono" aria-hidden="true"><use href="#i-sede"/></svg><span><b>Sede electrónica</b><span>Trámites con certificado o Cl@ve</span></span></a></li>
+        <li><a class="sede-franja__enlace" href="https://fuentedecantos.sedelectronica.es/board"><svg class="icono" aria-hidden="true"><use href="#i-tablon"/></svg><span><b>Tablón de anuncios</b><span>Edictos y anuncios oficiales</span></span></a></li>
+        <li><a class="sede-franja__enlace" href="https://fuentedecantos.sedelectronica.es/transparency"><svg class="icono" aria-hidden="true"><use href="#i-ojo"/></svg><span><b>Transparencia</b><span>Cuentas, contratos y acuerdos</span></span></a></li>
+        <li><a class="sede-franja__enlace" href="https://contrataciondelestado.es/wps/poc?uri=deeplink:perfilContratante&amp;idBp=yiEQcTbfEqnnSoTX3z%2F7wA%3D%3D"><svg class="icono" aria-hidden="true"><use href="#i-contrato"/></svg><span><b>Perfil del contratante</b><span>Licitaciones del Ayuntamiento</span></span></a></li>
+      </ul>
+      <p class="sede-franja__nota">Estos cuatro enlaces le llevan a la sede electrónica o a la Plataforma de Contratación del Sector Público.</p>
+    </div>
+  </section>
+  <div class="pie__cuerpo">
+    <div class="contenedor pie__rejilla">
+      <div class="pie__id">
+        <img class="pie__escudo" src="marca/escudo-160.png" width="120" height="160" alt="">
+        <div>
+          <p class="pie__nombre">Ayuntamiento de Fuente de Cantos</p>
+          <p>Plaza de la Constitución, 1 · 06240 Fuente de Cantos (Badajoz)</p>
+          <p>Teléfono <a href="tel:+34924500211">924 500 211</a> · <a class="rompe" href="mailto:ayuntamiento@fuentedecantos.es">ayuntamiento@fuentedecantos.es</a></p>
+          <p data-dato-ejemplo="horario">Lunes a viernes, de 9:00 a 14:00 <span class="ejemplo">Ejemplo</span></p>
+        </div>
+      </div>
+      <nav class="pie__nav" aria-label="Información legal">
+        <ul>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li><a href="aviso-legal.html">Aviso legal</a></li>
+          <li><a href="privacidad.html">Privacidad</a></li>
+          <li><a href="cookies.html">Cookies</a></li>
+          <li><a href="accesibilidad.html">Declaración de accesibilidad</a></li>
+        </ul>
+      </nav>
+      <ul class="pie__redes" aria-label="Redes sociales del Ayuntamiento">
+        <li><a href="https://www.instagram.com/fuentedecantosayto/">Instagram</a></li><li><a href="https://www.facebook.com/fuentedecantosayuntamiento">Facebook</a></li><li><a href="https://whatsapp.com/channel/0029Var83pI4o7qH3iwpns2M">Canal de WhatsApp</a></li><li><a href="https://www.youtube.com/channel/UC8IB-YY0d71jaSHZN8XVs1g">YouTube</a></li><li><a href="https://twitter.com/AyuntamientoFdC">X (Twitter)</a></li>
+      </ul>
+      <p class="pie__creditos">Escudo: Erlenmeyer, CC BY-SA 4.0 (<a href="https://commons.wikimedia.org/wiki/File:Escudo_de_Fuente_de_Cantos_(Badajoz).svg">Wikimedia Commons</a>). Las fotos llevan su autor y licencia en <a href="pueblo.html#creditos">El pueblo</a>.</p>
+      <p class="pie__propuesta" data-propuesta>Propuesta de diseño para el Ayuntamiento de Fuente de Cantos · no es la web oficial.</p>
+    </div>
+  </div>
+</footer>
+
+<div class="cookies" id="cookies" role="region" aria-label="Aviso de cookies" hidden>
+  <div class="cookies__texto">
+    <p>Esta web no usa cookies. Solo guarda en su navegador que ha leído este aviso. El mapa de Google se carga únicamente si usted lo pide. <a href="cookies.html">Más información</a>.</p>
+    <!-- [MANDO DE MAQUETA] inicio -->
+    <p class="cookies__revision">Durante la revisión de la propuesta también guarda la versión y el color que se estén probando.</p>
+    <!-- [MANDO DE MAQUETA] fin -->
+  </div>
+  <button class="boton boton--marca" type="button" data-aceptar-cookies>Entendido</button>
+</div>
+
+<!-- [MANDO DE MAQUETA] inicio -->
+<!-- Mando de la reunión: solo con ?revision. NUNCA viaja al sitio del Ayuntamiento:
+     python scripts/quitar_mandos.py lo borra (README, «Antes de entregar»). -->
+<div class="mando" id="mando" role="region" aria-label="Versiones de la propuesta" hidden>
+  <div class="mando__grupo" role="group" aria-labelledby="mando-version">
+    <p class="mando__titulo" id="mando-version">Versión</p>
+    <button type="button" class="mando__boton" data-densidad="puerta" aria-pressed="true">Puerta abierta</button>
+    <button type="button" class="mando__boton" data-densidad="sobria" aria-pressed="false">Sobria</button>
+  </div>
+  <div class="mando__grupo" role="group" aria-labelledby="mando-color">
+    <p class="mando__titulo" id="mando-color">Color</p>
+    <button type="button" class="mando__boton" data-paleta="a" aria-pressed="true"><span class="mando__muestra mando__muestra--a" aria-hidden="true"></span>Azur</button>
+    <button type="button" class="mando__boton" data-paleta="b" aria-pressed="false"><span class="mando__muestra mando__muestra--b" aria-hidden="true"></span>Púrpura</button>
+    <button type="button" class="mando__boton" data-paleta="c" aria-pressed="false"><span class="mando__muestra mando__muestra--c" aria-hidden="true"></span>Sinople</button>
+
+  </div>
+</div>
+<!-- [MANDO DE MAQUETA] fin -->
+
+<script type="application/json" id="datos-vivos">{"slug":"fuente-de-cantos","nombre":"Fuente de Cantos","nombre_corto":"Fuente de Cantos","zona":"Europe/Madrid","horario":{"texto":"Lunes a viernes, de 9:00 a 14:00","tramos":[{"dias":[1,2,3,4,5],"de":"09:00","a":"14:00"}],"ejemplo":true},"avisos":[{"id":"lista-administrativo","fecha":"2026-10-01","tema":"Empleo","titulo":"Publicada la lista definitiva del proceso de administrativo/a","urgente":false,"caduca":null,"ejemplo":false,"oculto":false},{"id":"cursos-ingles-aupex","fecha":"2026-09-12","tema":"Formación","titulo":"Abierta la matrícula de los cursos de inglés","urgente":false,"caduca":null,"ejemplo":false,"oculto":false},{"id":"bando-limpieza-solares","fecha":"2026-06-24","tema":"Obras","titulo":"Bando: limpieza de solares","urgente":false,"caduca":null,"ejemplo":false,"oculto":false}],"agenda":[{"id":"puertas-abiertas-guardia-civil","fecha":"2026-10-08","hora":null,"titulo":"Puertas abiertas de la Guardia Civil para niños y niñas","lugar":"Cuartel de la Guardia Civil, C/ Real, 84","nota":null,"ejemplo":false,"oculto":false},{"id":"dia-lenguas-extremadura","fecha":"2026-09-26","hora":null,"titulo":"Día de las Lenguas de Extremadura","lugar":"Convento de San Diego y Nave Multiusos del Recinto Ferial","nota":null,"ejemplo":false,"oculto":false},{"id":"encuentro-poetico-musical","fecha":"2026-09-19","hora":"20:00","titulo":"VI Encuentro Poético-Musical «Villa de Zurbarán»","lugar":"Teatro Municipal","nota":null,"ejemplo":false,"oculto":false},{"id":"coches-clasicos","fecha":"2026-09-06","hora":null,"titulo":"Concentración de coches clásicos","lugar":"Organiza el Motor Club Fuente de Cantos, en las fiestas de la Hermosa","nota":null,"ejemplo":false,"oculto":false},{"id":"fiesta-romeria-de-san-isidro-2026","fecha":"2026-05-15","titulo":"Romería de San Isidro","lugar":"15 de mayo. Fiesta de Interés Turístico de Extremadura","origen":"fiesta"},{"id":"fiesta-romeria-de-san-isidro-2027","fecha":"2027-05-15","titulo":"Romería de San Isidro","lugar":"15 de mayo. Fiesta de Interés Turístico de Extremadura","origen":"fiesta"},{"id":"fiesta-fiestas-del-jubileo-y-san-roque-2026","fecha":"2026-08-14","titulo":"Fiestas del Jubileo y San Roque","lugar":"Del 14 al 18 de agosto; San Roque, el patrón, el 16","origen":"fiesta"},{"id":"fiesta-fiestas-del-jubileo-y-san-roque-2027","fecha":"2027-08-14","titulo":"Fiestas del Jubileo y San Roque","lugar":"Del 14 al 18 de agosto; San Roque, el patrón, el 16","origen":"fiesta"},{"id":"fiesta-nuestra-senora-de-la-hermosa-2026","fecha":"2026-09-08","titulo":"Nuestra Señora de la Hermosa","lugar":"8 de septiembre, fiestas patronales","origen":"fiesta"},{"id":"fiesta-nuestra-senora-de-la-hermosa-2027","fecha":"2027-09-08","titulo":"Nuestra Señora de la Hermosa","lugar":"8 de septiembre, fiestas patronales","origen":"fiesta"}],"noticias":[{"id":"puertas-abiertas-guardia-civil","fecha":"2026-10-01","titulo":"La Guardia Civil abre su cuartel a los niños y niñas el 8 de octubre","resumen":"Una jornada de puertas abiertas en el cuartel de Fuente de Cantos.","imagen":null,"imagen_alt":"","ejemplo":false},{"id":"dia-lenguas-extremadura","fecha":"2026-09-24","titulo":"Fuente de Cantos celebró el Día de las Lenguas de Extremadura","resumen":"Talleres, mesas redondas y migas en el Convento de San Diego, y conciertos por la noche.","imagen":"san-diego","imagen_alt":"Fachada ocre del antiguo Convento de San Diego entre árboles","ejemplo":false},{"id":"pleno-septiembre","fecha":"2026-09-23","titulo":"Convocado el Pleno de septiembre y publicada el acta del de junio","resumen":"Los dos documentos están en el tablón de la sede electrónica.","imagen":null,"imagen_alt":"","ejemplo":false},{"id":"encuentro-poetico-musical","fecha":"2026-09-13","titulo":"VI Encuentro Poético-Musical «Villa de Zurbarán»","resumen":"El 19 de septiembre, a las 20:00, en el Teatro Municipal, con entrada gratuita.","imagen":null,"imagen_alt":"","ejemplo":false},{"id":"prevencion-caidas-mayores","fecha":"2026-08-26","titulo":"Jornadas de prevención de caídas para mayores de 60 años","resumen":"Tres sesiones gratuitas dentro de «Fuente de Cantos, Ciudad Saludable».","imagen":null,"imagen_alt":"","ejemplo":false},{"id":"nuevo-centro-de-salud","fecha":"2025-07-30","titulo":"Abre el nuevo Centro de Salud","resumen":"En la calle San Julián, para una población de referencia de más de 7.500 personas.","imagen":null,"imagen_alt":"","ejemplo":false}],"tablon":{"actualizado":"2026-10-03T10:54:37.179Z","entradas":[{"fecha":"2026-09-23","tema":"Pleno","titulo":"ACTA DEL PLENO 2026-0003 [Acta 3-2026]","titulo_claro":"Acta del Pleno del 30 de junio de 2026","url":"https://fuentedecantos.sedelectronica.es/preview-document/1ef6a2f8-86fd-4008-a535-ecfe11a745fc","oculto":false},{"fecha":"2026-09-23","tema":"Pleno","titulo":"Anuncio de la convocatoria","titulo_claro":"Convocatoria del Pleno de septiembre","url":"https://fuentedecantos.sedelectronica.es/preview-document/c7b30ca1-b41c-4747-b561-9f16989ee824","oculto":false},{"fecha":"2026-09-22","tema":"Empleo","titulo":"PLANTILLA DE RESPUESTAS ENFERMERO-A","titulo_claro":"Respuestas del examen de la bolsa de enfermería","url":"https://fuentedecantos.sedelectronica.es/preview-document/b640305a-e54c-41b7-bdd8-245e608995ec","oculto":false}]},"fiestas":[{"mes":2,"nombre":"Carnaval","cuando":"Febrero o marzo, con las comparsas en el Teatro Municipal","mayor":false,"fecha_fija":null},{"mes":4,"nombre":"Fiesta de la Chanfaina","cuando":"Último fin de semana de abril. Fiesta de Interés Turístico de Extremadura","mayor":true,"fecha_fija":null},{"mes":5,"nombre":"Romería de San Isidro","cuando":"15 de mayo. Fiesta de Interés Turístico de Extremadura","mayor":true,"fecha_fija":"05-15"},{"mes":6,"nombre":"Fiesta de San Juan","cuando":"Sábado más próximo al 24 de junio, en el barrio de San Juan","mayor":false,"fecha_fija":null},{"mes":8,"nombre":"Fiestas del Jubileo y San Roque","cuando":"Del 14 al 18 de agosto; San Roque, el patrón, el 16","mayor":false,"fecha_fija":"08-14"},{"mes":9,"nombre":"Nuestra Señora de la Hermosa","cuando":"8 de septiembre, fiestas patronales","mayor":true,"fecha_fija":"09-08"},{"mes":10,"nombre":"Otoño Flamenco","cuando":"Octubre, en el Teatro Municipal","mayor":false,"fecha_fija":null},{"mes":11,"nombre":"Premio Internacional de Pintura «Francisco de Zurbarán»","cuando":"Noviembre","mayor":false,"fecha_fija":null}],"servicios":{"ayuntamiento":[{"dias":[1,2,3,4,5],"de":"09:00","a":"14:00"}],"biblioteca-francisco-zurbaran":[{"dias":[1,2,3,4,5],"de":"16:00","a":"21:00"}],"recaudacion-oar-de-la-diputacion":[{"dias":[1,2,3,4,5],"de":"09:00","a":"14:00"}],"junta-de-extremadura-registro-y-atencion":[{"dias":[1,2,3,4,5],"de":"08:30","a":"14:30"}]},"tramites_sede":111,"rutas":{"tramites":"tramites.html","avisos":"avisos.html","agenda":"agenda.html","noticia":"noticia-{id}.html","media":"media/"},"hoja":null,"tablon_json":"contenido/tablon.json","v_datos":"29ef6a3d"}</script>
+<script src="js/vivo.js?v=2aa76ce9" defer></script>
+<script src="js/main.js?v=85569bbf" defer></script>
+
+</body>
+</html>
+

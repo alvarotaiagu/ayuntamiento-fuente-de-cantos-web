@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<!-- GENERADO por scripts/aplicar.mjs desde fuente/ y los datos. No editar a mano. -->
+<html lang="es" class="sin-js densidad-puerta">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Teléfonos y servicios · Ayuntamiento de Fuente de Cantos</title>
+<meta name="description" content="Teléfonos útiles y servicios municipales de Fuente de Cantos.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_ES">
+<meta property="og:title" content="Propuesta de web · Fuente de Cantos">
+<meta property="og:description" content="Propuesta de diseño para la web del Ayuntamiento de Fuente de Cantos. No es la web oficial.">
+<meta property="og:image" content="https://alvarotaiagu.github.io/ayuntamiento-fuente-de-cantos-web/assets/og.jpg">
+<meta name="theme-color" content="#FAF9F5">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon.png" type="image/png" sizes="64x64">
+<link rel="manifest" href="manifest.json">
+<link rel="preload" href="fonts/besley-700-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/libre-franklin-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/fuentes.css?v=03f84dac">
+<link rel="stylesheet" href="css/marca.css?v=813b9bb0">
+<link rel="stylesheet" href="css/base.css?v=42e5e1b1">
+<script>
+/* Bloqueante a propósito: lo que cambia el aspecto se decide antes del primer
+   pintado, o la página arranca de una forma y salta a otra. */
+(function () {
+  var h = document.documentElement;
+  h.className = h.className.replace('sin-js', 'con-js');
+
+  /* [MANDO DE MAQUETA] inicio */
+  /* Solo con ?revision: lo guardado no cuenta fuera de la reunión, o un móvil
+     donde se probó la versión sobria la seguiría viendo sin mando para volver. */
+  if (!/[?&]revision\b/.test(location.search)) return;
+  h.classList.add('en-revision');
+  try {
+    var d = localStorage.getItem('fuente-de-cantos-densidad');
+    if (d === 'sobria' || d === 'puerta') { h.classList.remove('densidad-puerta', 'densidad-sobria'); h.classList.add('densidad-' + d); }
+    var p = localStorage.getItem('fuente-de-cantos-paleta');
+    if (p === 'a' || p === 'b' || p === 'c') h.setAttribute('data-paleta', p);
+  } catch (e) {}
+  /* [MANDO DE MAQUETA] fin */
+})();
+</script>
+
+</head>
+<body class="pagina-telefonos">
+<svg class="sprite" aria-hidden="true" focusable="false" width="0" height="0">
+  <symbol id="i-reloj" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+  <symbol id="i-calendario" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></symbol>
+  <symbol id="i-aviso" viewBox="0 0 24 24"><path d="M12 3.5 2.8 19.5h18.4L12 3.5Z"/><path d="M12 10v4.5M12 17.2v.1"/></symbol>
+  <symbol id="i-sede" viewBox="0 0 24 24"><path d="M3 9.5 12 4l9 5.5M5 10v8M9.5 10v8M14.5 10v8M19 10v8M3 20.5h18"/></symbol>
+  <symbol id="i-flecha" viewBox="0 0 24 24"><path d="M5 12h13M13 6.5l5.5 5.5-5.5 5.5"/></symbol>
+  <symbol id="i-salida" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></symbol>
+  <symbol id="i-lupa" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+  <symbol id="i-cerrar" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+  <symbol id="i-telefono" viewBox="0 0 24 24"><path d="M6.5 3.5h3l1.5 4-2 1.5a11 11 0 0 0 6 6l1.5-2 4 1.5v3a2 2 0 0 1-2 2A16 16 0 0 1 4.5 5.5a2 2 0 0 1 2-2Z"/></symbol>
+  <symbol id="i-casa" viewBox="0 0 24 24"><path d="M3.5 11 12 4l8.5 7M6 9.5V20h12V9.5M10 20v-5.5h4V20"/></symbol>
+  <symbol id="i-obra" viewBox="0 0 24 24"><path d="M3 20h18M5 20V10l4-3 4 3v10M13 13h6v7M8 13h2"/><path d="M15 4h5v4"/></symbol>
+  <symbol id="i-recibo" viewBox="0 0 24 24"><path d="M6 3h12v18l-3-2-3 2-3-2-3 2V3Z"/><path d="M9 8h6M9 12h6M9 16h3"/></symbol>
+  <symbol id="i-familia" viewBox="0 0 24 24"><circle cx="8" cy="7" r="2.5"/><circle cx="16.5" cy="8.5" r="2"/><path d="M3.5 20v-3.5a4.5 4.5 0 0 1 9 0V20M13 20v-2.5a3.5 3.5 0 0 1 7 0V20"/></symbol>
+  <symbol id="i-mensaje" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4V5Z"/><path d="M8 9.5h8M8 12.5h5"/></symbol>
+  <symbol id="i-tablon" viewBox="0 0 24 24"><rect x="3.5" y="4" width="17" height="13" rx="1.5"/><path d="M7 21l2-4M17 21l-2-4M7.5 8h9M7.5 11.5h6"/></symbol>
+  <symbol id="i-ojo" viewBox="0 0 24 24"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12Z"/><circle cx="12" cy="12" r="3"/></symbol>
+  <symbol id="i-contrato" viewBox="0 0 24 24"><path d="M6 3h8l4 4v14H6V3Z"/><path d="M14 3v4h4M9 12h6M9 15.5h6M9 19h3"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-6.5-6-6.5-11a6.5 6.5 0 0 1 13 0c0 5-6.5 11-6.5 11Z"/><circle cx="12" cy="10" r="2.3"/></symbol>
+  <symbol id="i-correo" viewBox="0 0 24 24"><rect x="3" y="5.5" width="18" height="13" rx="1.5"/><path d="m3.5 6.5 8.5 7 8.5-7"/></symbol>
+  <symbol id="i-documento" viewBox="0 0 24 24"><path d="M6 3h8l4 4v14H6V3Z"/><path d="M14 3v4h4"/></symbol>
+  <symbol id="i-abajo" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+</svg>
+
+<a class="saltar" href="#contenido">Saltar al contenido</a>
+<header class="cabecera">
+  <div class="propuesta" data-propuesta>
+    <p class="contenedor"><b>Propuesta de diseño</b> para el Ayuntamiento de Fuente de Cantos · no es la web oficial</p>
+  </div>
+  <div class="franja-urgente" data-vivo="franja" hidden></div>
+  <div class="cabecera__barra">
+    <div class="contenedor cabecera__dentro">
+      <a class="cabecera__marca" href="index.html">
+        <img class="cabecera__escudo" src="marca/escudo-160.png" width="120" height="160" alt="">
+        <span class="cabecera__nombre"><span class="cabecera__ante">Ayuntamiento de</span> Fuente de Cantos</span>
+      </a>
+      <nav class="menu" id="menu" aria-label="Principal">
+        <div class="menu__cabeza">
+          <p class="menu__titulo">Menú</p>
+          <button class="boton-icono menu__cerrar" type="button" data-cerrar-menu><svg class="icono" aria-hidden="true"><use href="#i-cerrar"/></svg><span class="sr">Cerrar el menú</span></button>
+        </div>
+        <ul class="menu__lista">
+          <li><a class="menu__enlace" href="ayuntamiento.html">El Ayuntamiento</a></li>
+          <li><a class="menu__enlace" href="tramites.html">Trámites</a></li>
+          <li><a class="menu__enlace" href="avisos.html">Avisos</a></li>
+          <li><a class="menu__enlace" href="noticias.html">Noticias</a></li>
+          <li><a class="menu__enlace" href="agenda.html">Agenda</a></li>
+          <li><a class="menu__enlace" href="pueblo.html">El pueblo</a></li>
+          <li><a class="menu__enlace" href="telefonos.html" aria-current="page">Teléfonos</a></li>
+          <li><a class="menu__enlace" href="contacto.html">Contacto</a></li>
+
+        </ul>
+        <a class="boton boton--marca menu__sede" href="https://fuentedecantos.sedelectronica.es"><svg class="icono" aria-hidden="true"><use href="#i-sede"/></svg>Sede electrónica</a>
+      </nav>
+      <div class="cabecera__acciones">
+        <a class="boton boton--marca cabecera__sede" href="https://fuentedecantos.sedelectronica.es"><svg class="icono" aria-hidden="true"><use href="#i-sede"/></svg>Sede electrónica</a>
+        <a class="boton-icono" href="tramites.html#buscar" data-abrir-buscador><svg class="icono" aria-hidden="true"><use href="#i-lupa"/></svg><span class="sr">Buscar un trámite</span></a>
+        <button class="boton-menu" type="button" aria-expanded="false" aria-controls="menu" data-boton-menu hidden><svg class="icono" aria-hidden="true"><use href="#i-menu"/></svg>Menú</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<dialog class="buscador" id="buscador" aria-labelledby="buscador-titulo">
+  <div class="buscador__cabeza">
+    <h2 class="buscador__titulo" id="buscador-titulo">Buscar un trámite</h2>
+    <form method="dialog"><button class="boton-icono" type="submit"><svg class="icono" aria-hidden="true"><use href="#i-cerrar"/></svg><span class="sr">Cerrar el buscador</span></button></form>
+  </div>
+  <div class="campo" role="search">
+    <label class="campo__etiqueta" for="buscador-campo">¿Qué necesita hacer?</label>
+    <input class="campo__entrada" id="buscador-campo" type="search" autocomplete="off" spellcheck="false" placeholder="Empadronarme, pagar un recibo, una obra…" aria-describedby="buscador-ayuda" data-buscador-campo>
+  </div>
+  <p class="campo__ayuda" id="buscador-ayuda">Escríbalo con sus palabras. Cada resultado le lleva a su trámite en la sede electrónica.</p>
+  <p class="buscador__cuenta" role="status" data-buscador-cuenta></p>
+  <ul class="resultados" data-buscador-resultados></ul>
+  <p class="buscador__pie"><a href="tramites.html#todos">Ver la lista de todos los trámites</a></p>
+</dialog>
+
+<main id="contenido" tabindex="-1">
+<div class="cabeza-pagina">
+  <div class="contenedor">
+    <nav class="migas" aria-label="Usted está aquí">
+      <ol>
+        <li><a href="index.html">Inicio</a></li>
+
+        <li><span aria-current="page">Teléfonos y servicios</span></li>
+      </ol>
+    </nav>
+    <h1 class="cabeza-pagina__titulo" id="titulo-pagina">Teléfonos y servicios</h1>
+    <p class="entradilla">El listín del pueblo, con las urgencias primero.</p>
+  </div>
+</div>
+
+<section class="seccion seccion--primera" aria-labelledby="t-listin">
+  <div class="contenedor">
+    <h2 class="sr" id="t-listin">Listín de teléfonos</h2>
+    <div class="listin-completo">
+      <div class="listin-grupo">
+        <h3 class="listin-grupo__titulo">Urgencias y seguridad</h3>
+        <ul class="listin">
+          <li class="listin__fila listin__fila--urgente">
+            <span class="listin__nombre">Emergencias</span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:112"><span class="sr">Llamar a Emergencias: </span>112</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Policía Local<small>Móvil: 647 701 575 · Plaza de la Constitución, 1</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924500031"><span class="sr">Llamar a Policía Local: </span>924 500 031</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Guardia Civil<small>C/ Real, 84</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924500008"><span class="sr">Llamar a Guardia Civil: </span>924 500 008</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Cruz Roja<small>C/ Real, s/n</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924500939"><span class="sr">Llamar a Cruz Roja: </span>924 500 939</a>
+          </li>
+
+        </ul>
+      </div>
+      <div class="listin-grupo">
+        <h3 class="listin-grupo__titulo">Ayuntamiento</h3>
+        <ul class="listin">
+          <li class="listin__fila">
+            <span class="listin__nombre">Ayuntamiento<small>Alcaldía y registro · Plaza de la Constitución, 1</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924500211"><span class="sr">Llamar a Ayuntamiento: </span>924 500 211</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Oficinas municipales, consumo (OMIC) y desarrollo local<small>Plaza de la Constitución, 1</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924500225"><span class="sr">Llamar a Oficinas municipales, consumo (OMIC) y desarrollo local: </span>924 500 225</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Oficina técnica (aparejador)<small>Plaza de la Constitución, 1</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924500496"><span class="sr">Llamar a Oficina técnica (aparejador): </span>924 500 496</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Servicio social de base<small>Plaza de la Constitución, 1</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924580009"><span class="sr">Llamar a Servicio social de base: </span>924 580 009</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Universidad Popular<small>Plaza de la Constitución, 1</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34647702065"><span class="sr">Llamar a Universidad Popular: </span>647 702 065</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Almacén municipal<small>C/ La Almena, 10</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924500000"><span class="sr">Llamar a Almacén municipal: </span>924 500 000</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Cementerio</span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34647701571"><span class="sr">Llamar a Cementerio: </span>647 701 571</a>
+          </li>
+
+        </ul>
+      </div>
+      <div class="listin-grupo">
+        <h3 class="listin-grupo__titulo">Salud</h3>
+        <ul class="listin">
+          <li class="listin__fila">
+            <span class="listin__nombre">Centro de Salud: urgencias<small>Urgencias de 15:00 a 8:00 los laborables, y las 24 horas los sábados, domingos y festivos · C/ San Julián, s/n</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924500951"><span class="sr">Llamar a Centro de Salud: urgencias: </span>924 500 951</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Centro de Salud: cita previa<small>C/ San Julián, s/n</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924580192"><span class="sr">Llamar a Centro de Salud: cita previa: </span>924 580 192</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Farmacia Toribio<small>C/ Llerena, 1</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924500298"><span class="sr">Llamar a Farmacia Toribio: </span>924 500 298</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Farmacia Godoy<small>C/ Martínez, 9</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924580081"><span class="sr">Llamar a Farmacia Godoy: </span>924 580 081</a>
+          </li>
+
+        </ul>
+      </div>
+      <div class="listin-grupo">
+        <h3 class="listin-grupo__titulo">Mayores y servicios sociales</h3>
+        <ul class="listin">
+          <li class="listin__fila">
+            <span class="listin__nombre">Residencia de mayores «Nuestra Señora de Guadalupe»</span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924500335"><span class="sr">Llamar a Residencia de mayores «Nuestra Señora de Guadalupe»: </span>924 500 335</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Centro Ocupacional «Francisco de Asuar»<small>C/ Huertas</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924500714"><span class="sr">Llamar a Centro Ocupacional «Francisco de Asuar»: </span>924 500 714</a>
+          </li>
+
+        </ul>
+      </div>
+      <div class="listin-grupo">
+        <h3 class="listin-grupo__titulo">Educación</h3>
+        <ul class="listin">
+          <li class="listin__fila">
+            <span class="listin__nombre">Escuela Infantil «Nicolás Megía»<small>C/ San Isidro, s/n · De 7:30 a 15:30; cerrada en agosto</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924500712"><span class="sr">Llamar a Escuela Infantil «Nicolás Megía»: </span>924 500 712</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">CEIP Francisco de Zurbarán<small>C/ San Julián, 12</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924023363"><span class="sr">Llamar a CEIP Francisco de Zurbarán: </span>924 023 363</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">IES Alba Plata<small>C/ Hierbabuena, s/n</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924023200"><span class="sr">Llamar a IES Alba Plata: </span>924 023 200</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Colegio San Francisco Javier<small>C/ Nicolás Megía, 33</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924500311"><span class="sr">Llamar a Colegio San Francisco Javier: </span>924 500 311</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Aula de adultos<small>Travesía del Paseo de Extremadura</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924500300"><span class="sr">Llamar a Aula de adultos: </span>924 500 300</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Escuela Municipal de Música<small>Preinscripción para el curso siguiente hasta el 30 de junio · C/ Olmo</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924580430"><span class="sr">Llamar a Escuela Municipal de Música: </span>924 580 430</a>
+          </li>
+
+        </ul>
+      </div>
+      <div class="listin-grupo">
+        <h3 class="listin-grupo__titulo">Cultura, deporte y ocio</h3>
+        <ul class="listin">
+          <li class="listin__fila">
+            <span class="listin__nombre">Biblioteca «Francisco Zurbarán»<small>Plaza de Santa Teresa de Jesús, 4 · Lunes a viernes, de 16:00 a 21:00</small><span class="listin__estado" data-vivo="servicio" data-clave="biblioteca-francisco-zurbaran"><p class="estado estado--servicio esta-cerrado"><span class="estado__punto" aria-hidden="true"></span><b>Cerrado ahora</b> · abre el lunes a las 16:00</p></span></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924580380"><span class="sr">Llamar a Biblioteca «Francisco Zurbarán»: </span>924 580 380</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Oficina de Turismo y Centro de Interpretación<small>Plaza de la Constitución (antigua Casa de Correos)</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924580380"><span class="sr">Llamar a Oficina de Turismo y Centro de Interpretación: </span>924 580 380</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Centro Juvenil<small>Plaza del Carmen</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924501240"><span class="sr">Llamar a Centro Juvenil: </span>924 501 240</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Polideportivo<small>Travesía del Paseo de Extremadura, s/n</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924580220"><span class="sr">Llamar a Polideportivo: </span>924 580 220</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Gimnasio municipal<small>C/ Felipe Trigo</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924500880"><span class="sr">Llamar a Gimnasio municipal: </span>924 500 880</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Piscina municipal<small>C/ Luis Chamizo, s/n</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924501128"><span class="sr">Llamar a Piscina municipal: </span>924 501 128</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Radio Fuente de Cantos<small>Emisora municipal · C/ Real</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924500252"><span class="sr">Llamar a Radio Fuente de Cantos: </span>924 500 252</a>
+          </li>
+
+        </ul>
+      </div>
+      <div class="listin-grupo">
+        <h3 class="listin-grupo__titulo">Calles, agua y basura</h3>
+        <ul class="listin">
+          <li class="listin__fila">
+            <span class="listin__nombre">Punto limpio<small>Recogida de muebles y enseres en casa los lunes, pidiéndola por teléfono. Horario publicado en 2015 · Camino de Calera de León, km 3,8 · Lunes a jueves de 8:00 a 13:00; viernes y sábados de 8:00 a 13:00 y de 18:00 a 20:00</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34603726325"><span class="sr">Llamar a Punto limpio: </span>603 726 325</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Recogida de basura puerta a puerta<small>Lunes, envases. Martes, orgánica y resto. Miércoles, papel y cartón. Jueves, envases y orgánica. Domingo, orgánica. Viernes y sábado no hay recogida · Sacarla de 20:00 a 22:00 en invierno y de 21:00 a 23:00 en verano</small></span>
+
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Aquanex (agua)<small>Atención al cliente; también en el 911 774 060 · C/ Llerena, 43</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34900600410"><span class="sr">Llamar a Aquanex (agua): </span>900 600 410</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Mercado de abastos</span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924500763"><span class="sr">Llamar a Mercado de abastos: </span>924 500 763</a>
+          </li>
+
+        </ul>
+      </div>
+      <div class="listin-grupo">
+        <h3 class="listin-grupo__titulo">Otras administraciones</h3>
+        <ul class="listin">
+          <li class="listin__fila">
+            <span class="listin__nombre">Recaudación (OAR de la Diputación)<small>Impuestos y recibos municipales; punto de información catastral · Plaza de Santa Teresa, 4 · Lunes a viernes, de 9:00 a 14:00</small><span class="listin__estado" data-vivo="servicio" data-clave="recaudacion-oar-de-la-diputacion"><p class="estado estado--servicio esta-cerrado"><span class="estado__punto" aria-hidden="true"></span><b>Cerrado ahora</b> · abre el lunes a las 9:00</p></span></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924500976"><span class="sr">Llamar a Recaudación (OAR de la Diputación): </span>924 500 976</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Junta de Extremadura (registro y atención)<small>C/ Nicolás Megía, 21 · Lunes a viernes, de 8:30 a 14:30</small><span class="listin__estado" data-vivo="servicio" data-clave="junta-de-extremadura-registro-y-atencion"><p class="estado estado--servicio esta-cerrado"><span class="estado__punto" aria-hidden="true"></span><b>Cerrado ahora</b> · abre el lunes a las 8:30</p></span></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924023623"><span class="sr">Llamar a Junta de Extremadura (registro y atención): </span>924 023 623</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Oficina de empleo (SEXPE)<small>Plaza del Carmen</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924023658"><span class="sr">Llamar a Oficina de empleo (SEXPE): </span>924 023 658</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Oficina veterinaria de zona<small>Miércoles, de 9:00 a 11:00</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924023624"><span class="sr">Llamar a Oficina veterinaria de zona: </span>924 023 624</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Juzgado de Paz<small>Plaza de Manuel Carrascal, 1</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924500026"><span class="sr">Llamar a Juzgado de Paz: </span>924 500 026</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Registro de la Propiedad<small>C/ Jesús, 84</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924500163"><span class="sr">Llamar a Registro de la Propiedad: </span>924 500 163</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Notaría<small>C/ Isabel la Católica, 8</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924500029"><span class="sr">Llamar a Notaría: </span>924 500 029</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Correos<small>C/ Llerena, 32</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924500239"><span class="sr">Llamar a Correos: </span>924 500 239</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Estación de autobuses<small>C/ Real, s/n</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924580153"><span class="sr">Llamar a Estación de autobuses: </span>924 580 153</a>
+          </li>
+
+        </ul>
+      </div>
+      <div class="listin-grupo">
+        <h3 class="listin-grupo__titulo">Parroquia, santuario y convento</h3>
+        <ul class="listin">
+          <li class="listin__fila">
+            <span class="listin__nombre">Parroquia de Nuestra Señora de la Granada<small>Casa parroquial (C/ Carmelitas): 924 500 005 · C/ Iglesia, 1</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924500223"><span class="sr">Llamar a Parroquia de Nuestra Señora de la Granada: </span>924 500 223</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Santuario de Nuestra Señora de la Hermosa<small>C/ Los Santos, 2</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924580171"><span class="sr">Llamar a Santuario de Nuestra Señora de la Hermosa: </span>924 580 171</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Convento de las Carmelitas Descalzas<small>Plaza de Santa Teresa, 1</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924500271"><span class="sr">Llamar a Convento de las Carmelitas Descalzas: </span>924 500 271</a>
+          </li>
+
+        </ul>
+      </div>
+
+    </div>
+    <p class="nota-fuente">Solo aparecen los teléfonos confirmados. Si echa en falta uno, llame al Ayuntamiento: <a href="tel:+34924500211">924 500 211</a>.</p>
+  </div>
+</section>
+</main>
+<footer class="pie">
+  <section class="sede-franja" aria-labelledby="t-sede">
+    <div class="contenedor">
+      <h2 class="sede-franja__titulo" id="t-sede">Sede electrónica e información pública</h2>
+      <ul class="sede-franja__lista">
+        <li><a class="sede-franja__enlace" href="https://fuentedecantos.sedelectronica.es"><svg class="icono" aria-hidden="true"><use href="#i-sede"/></svg><span><b>Sede electrónica</b><span>Trámites con certificado o Cl@ve</span></span></a></li>
+        <li><a class="sede-franja__enlace" href="https://fuentedecantos.sedelectronica.es/board"><svg class="icono" aria-hidden="true"><use href="#i-tablon"/></svg><span><b>Tablón de anuncios</b><span>Edictos y anuncios oficiales</span></span></a></li>
+        <li><a class="sede-franja__enlace" href="https://fuentedecantos.sedelectronica.es/transparency"><svg class="icono" aria-hidden="true"><use href="#i-ojo"/></svg><span><b>Transparencia</b><span>Cuentas, contratos y acuerdos</span></span></a></li>
+        <li><a class="sede-franja__enlace" href="https://contrataciondelestado.es/wps/poc?uri=deeplink:perfilContratante&amp;idBp=yiEQcTbfEqnnSoTX3z%2F7wA%3D%3D"><svg class="icono" aria-hidden="true"><use href="#i-contrato"/></svg><span><b>Perfil del contratante</b><span>Licitaciones del Ayuntamiento</span></span></a></li>
+      </ul>
+      <p class="sede-franja__nota">Estos cuatro enlaces le llevan a la sede electrónica o a la Plataforma de Contratación del Sector Público.</p>
+    </div>
+  </section>
+  <div class="pie__cuerpo">
+    <div class="contenedor pie__rejilla">
+      <div class="pie__id">
+        <img class="pie__escudo" src="marca/escudo-160.png" width="120" height="160" alt="">
+        <div>
+          <p class="pie__nombre">Ayuntamiento de Fuente de Cantos</p>
+          <p>Plaza de la Constitución, 1 · 06240 Fuente de Cantos (Badajoz)</p>
+          <p>Teléfono <a href="tel:+34924500211">924 500 211</a> · <a class="rompe" href="mailto:ayuntamiento@fuentedecantos.es">ayuntamiento@fuentedecantos.es</a></p>
+          <p data-dato-ejemplo="horario">Lunes a viernes, de 9:00 a 14:00 <span class="ejemplo">Ejemplo</span></p>
+        </div>
+      </div>
+      <nav class="pie__nav" aria-label="Información legal">
+        <ul>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li><a href="aviso-legal.html">Aviso legal</a></li>
+          <li><a href="privacidad.html">Privacidad</a></li>
+          <li><a href="cookies.html">Cookies</a></li>
+          <li><a href="accesibilidad.html">Declaración de accesibilidad</a></li>
+        </ul>
+      </nav>
+      <ul class="pie__redes" aria-label="Redes sociales del Ayuntamiento">
+        <li><a href="https://www.instagram.com/fuentedecantosayto/">Instagram</a></li><li><a href="https://www.facebook.com/fuentedecantosayuntamiento">Facebook</a></li><li><a href="https://whatsapp.com/channel/0029Var83pI4o7qH3iwpns2M">Canal de WhatsApp</a></li><li><a href="https://www.youtube.com/channel/UC8IB-YY0d71jaSHZN8XVs1g">YouTube</a></li><li><a href="https://twitter.com/AyuntamientoFdC">X (Twitter)</a></li>
+      </ul>
+      <p class="pie__creditos">Escudo: Erlenmeyer, CC BY-SA 4.0 (<a href="https://commons.wikimedia.org/wiki/File:Escudo_de_Fuente_de_Cantos_(Badajoz).svg">Wikimedia Commons</a>). Las fotos llevan su autor y licencia en <a href="pueblo.html#creditos">El pueblo</a>.</p>
+      <p class="pie__propuesta" data-propuesta>Propuesta de diseño para el Ayuntamiento de Fuente de Cantos · no es la web oficial.</p>
+    </div>
+  </div>
+</footer>
+
+<div class="cookies" id="cookies" role="region" aria-label="Aviso de cookies" hidden>
+  <div class="cookies__texto">
+    <p>Esta web no usa cookies. Solo guarda en su navegador que ha leído este aviso. El mapa de Google se carga únicamente si usted lo pide. <a href="cookies.html">Más información</a>.</p>
+    <!-- [MANDO DE MAQUETA] inicio -->
+    <p class="cookies__revision">Durante la revisión de la propuesta también guarda la versión y el color que se estén probando.</p>
+    <!-- [MANDO DE MAQUETA] fin -->
+  </div>
+  <button class="boton boton--marca" type="button" data-aceptar-cookies>Entendido</button>
+</div>
+
+<!-- [MANDO DE MAQUETA] inicio -->
+<!-- Mando de la reunión: solo con ?revision. NUNCA viaja al sitio del Ayuntamiento:
+     python scripts/quitar_mandos.py lo borra (README, «Antes de entregar»). -->
+<div class="mando" id="mando" role="region" aria-label="Versiones de la propuesta" hidden>
+  <div class="mando__grupo" role="group" aria-labelledby="mando-version">
+    <p class="mando__titulo" id="mando-version">Versión</p>
+    <button type="button" class="mando__boton" data-densidad="puerta" aria-pressed="true">Puerta abierta</button>
+    <button type="button" class="mando__boton" data-densidad="sobria" aria-pressed="false">Sobria</button>
+  </div>
+  <div class="mando__grupo" role="group" aria-labelledby="mando-color">
+    <p class="mando__titulo" id="mando-color">Color</p>
+    <button type="button" class="mando__boton" data-paleta="a" aria-pressed="true"><span class="mando__muestra mando__muestra--a" aria-hidden="true"></span>Azur</button>
+    <button type="button" class="mando__boton" data-paleta="b" aria-pressed="false"><span class="mando__muestra mando__muestra--b" aria-hidden="true"></span>Púrpura</button>
+    <button type="button" class="mando__boton" data-paleta="c" aria-pressed="false"><span class="mando__muestra mando__muestra--c" aria-hidden="true"></span>Sinople</button>
+
+  </div>
+</div>
+<!-- [MANDO DE MAQUETA] fin -->
+
+<script type="application/json" id="datos-vivos">{"slug":"fuente-de-cantos","nombre":"Fuente de Cantos","nombre_corto":"Fuente de Cantos","zona":"Europe/Madrid","horario":{"texto":"Lunes a viernes, de 9:00 a 14:00","tramos":[{"dias":[1,2,3,4,5],"de":"09:00","a":"14:00"}],"ejemplo":true},"avisos":[{"id":"lista-administrativo","fecha":"2026-10-01","tema":"Empleo","titulo":"Publicada la lista definitiva del proceso de administrativo/a","urgente":false,"caduca":null,"ejemplo":false,"oculto":false},{"id":"cursos-ingles-aupex","fecha":"2026-09-12","tema":"Formación","titulo":"Abierta la matrícula de los cursos de inglés","urgente":false,"caduca":null,"ejemplo":false,"oculto":false},{"id":"bando-limpieza-solares","fecha":"2026-06-24","tema":"Obras","titulo":"Bando: limpieza de solares","urgente":false,"caduca":null,"ejemplo":false,"oculto":false}],"agenda":[{"id":"puertas-abiertas-guardia-civil","fecha":"2026-10-08","hora":null,"titulo":"Puertas abiertas de la Guardia Civil para niños y niñas","lugar":"Cuartel de la Guardia Civil, C/ Real, 84","nota":null,"ejemplo":false,"oculto":false},{"id":"dia-lenguas-extremadura","fecha":"2026-09-26","hora":null,"titulo":"Día de las Lenguas de Extremadura","lugar":"Convento de San Diego y Nave Multiusos del Recinto Ferial","nota":null,"ejemplo":false,"oculto":false},{"id":"encuentro-poetico-musical","fecha":"2026-09-19","hora":"20:00","titulo":"VI Encuentro Poético-Musical «Villa de Zurbarán»","lugar":"Teatro Municipal","nota":null,"ejemplo":false,"oculto":false},{"id":"coches-clasicos","fecha":"2026-09-06","hora":null,"titulo":"Concentración de coches clásicos","lugar":"Organiza el Motor Club Fuente de Cantos, en las fiestas de la Hermosa","nota":null,"ejemplo":false,"oculto":false},{"id":"fiesta-romeria-de-san-isidro-2026","fecha":"2026-05-15","titulo":"Romería de San Isidro","lugar":"15 de mayo. Fiesta de Interés Turístico de Extremadura","origen":"fiesta"},{"id":"fiesta-romeria-de-san-isidro-2027","fecha":"2027-05-15","titulo":"Romería de San Isidro","lugar":"15 de mayo. Fiesta de Interés Turístico de Extremadura","origen":"fiesta"},{"id":"fiesta-fiestas-del-jubileo-y-san-roque-2026","fecha":"2026-08-14","titulo":"Fiestas del Jubileo y San Roque","lugar":"Del 14 al 18 de agosto; San Roque, el patrón, el 16","origen":"fiesta"},{"id":"fiesta-fiestas-del-jubileo-y-san-roque-2027","fecha":"2027-08-14","titulo":"Fiestas del Jubileo y San Roque","lugar":"Del 14 al 18 de agosto; San Roque, el patrón, el 16","origen":"fiesta"},{"id":"fiesta-nuestra-senora-de-la-hermosa-2026","fecha":"2026-09-08","titulo":"Nuestra Señora de la Hermosa","lugar":"8 de septiembre, fiestas patronales","origen":"fiesta"},{"id":"fiesta-nuestra-senora-de-la-hermosa-2027","fecha":"2027-09-08","titulo":"Nuestra Señora de la Hermosa","lugar":"8 de septiembre, fiestas patronales","origen":"fiesta"}],"noticias":[{"id":"puertas-abiertas-guardia-civil","fecha":"2026-10-01","titulo":"La Guardia Civil abre su cuartel a los niños y niñas el 8 de octubre","resumen":"Una jornada de puertas abiertas en el cuartel de Fuente de Cantos.","imagen":null,"imagen_alt":"","ejemplo":false},{"id":"dia-lenguas-extremadura","fecha":"2026-09-24","titulo":"Fuente de Cantos celebró el Día de las Lenguas de Extremadura","resumen":"Talleres, mesas redondas y migas en el Convento de San Diego, y conciertos por la noche.","imagen":"san-diego","imagen_alt":"Fachada ocre del antiguo Convento de San Diego entre árboles","ejemplo":false},{"id":"pleno-septiembre","fecha":"2026-09-23","titulo":"Convocado el Pleno de septiembre y publicada el acta del de junio","resumen":"Los dos documentos están en el tablón de la sede electrónica.","imagen":null,"imagen_alt":"","ejemplo":false},{"id":"encuentro-poetico-musical","fecha":"2026-09-13","titulo":"VI Encuentro Poético-Musical «Villa de Zurbarán»","resumen":"El 19 de septiembre, a las 20:00, en el Teatro Municipal, con entrada gratuita.","imagen":null,"imagen_alt":"","ejemplo":false},{"id":"prevencion-caidas-mayores","fecha":"2026-08-26","titulo":"Jornadas de prevención de caídas para mayores de 60 años","resumen":"Tres sesiones gratuitas dentro de «Fuente de Cantos, Ciudad Saludable».","imagen":null,"imagen_alt":"","ejemplo":false},{"id":"nuevo-centro-de-salud","fecha":"2025-07-30","titulo":"Abre el nuevo Centro de Salud","resumen":"En la calle San Julián, para una población de referencia de más de 7.500 personas.","imagen":null,"imagen_alt":"","ejemplo":false}],"tablon":{"actualizado":"2026-10-03T10:54:37.179Z","entradas":[{"fecha":"2026-09-23","tema":"Pleno","titulo":"ACTA DEL PLENO 2026-0003 [Acta 3-2026]","titulo_claro":"Acta del Pleno del 30 de junio de 2026","url":"https://fuentedecantos.sedelectronica.es/preview-document/1ef6a2f8-86fd-4008-a535-ecfe11a745fc","oculto":false},{"fecha":"2026-09-23","tema":"Pleno","titulo":"Anuncio de la convocatoria","titulo_claro":"Convocatoria del Pleno de septiembre","url":"https://fuentedecantos.sedelectronica.es/preview-document/c7b30ca1-b41c-4747-b561-9f16989ee824","oculto":false},{"fecha":"2026-09-22","tema":"Empleo","titulo":"PLANTILLA DE RESPUESTAS ENFERMERO-A","titulo_claro":"Respuestas del examen de la bolsa de enfermería","url":"https://fuentedecantos.sedelectronica.es/preview-document/b640305a-e54c-41b7-bdd8-245e608995ec","oculto":false}]},"fiestas":[{"mes":2,"nombre":"Carnaval","cuando":"Febrero o marzo, con las comparsas en el Teatro Municipal","mayor":false,"fecha_fija":null},{"mes":4,"nombre":"Fiesta de la Chanfaina","cuando":"Último fin de semana de abril. Fiesta de Interés Turístico de Extremadura","mayor":true,"fecha_fija":null},{"mes":5,"nombre":"Romería de San Isidro","cuando":"15 de mayo. Fiesta de Interés Turístico de Extremadura","mayor":true,"fecha_fija":"05-15"},{"mes":6,"nombre":"Fiesta de San Juan","cuando":"Sábado más próximo al 24 de junio, en el barrio de San Juan","mayor":false,"fecha_fija":null},{"mes":8,"nombre":"Fiestas del Jubileo y San Roque","cuando":"Del 14 al 18 de agosto; San Roque, el patrón, el 16","mayor":false,"fecha_fija":"08-14"},{"mes":9,"nombre":"Nuestra Señora de la Hermosa","cuando":"8 de septiembre, fiestas patronales","mayor":true,"fecha_fija":"09-08"},{"mes":10,"nombre":"Otoño Flamenco","cuando":"Octubre, en el Teatro Municipal","mayor":false,"fecha_fija":null},{"mes":11,"nombre":"Premio Internacional de Pintura «Francisco de Zurbarán»","cuando":"Noviembre","mayor":false,"fecha_fija":null}],"servicios":{"ayuntamiento":[{"dias":[1,2,3,4,5],"de":"09:00","a":"14:00"}],"biblioteca-francisco-zurbaran":[{"dias":[1,2,3,4,5],"de":"16:00","a":"21:00"}],"recaudacion-oar-de-la-diputacion":[{"dias":[1,2,3,4,5],"de":"09:00","a":"14:00"}],"junta-de-extremadura-registro-y-atencion":[{"dias":[1,2,3,4,5],"de":"08:30","a":"14:30"}]},"tramites_sede":111,"rutas":{"tramites":"tramites.html","avisos":"avisos.html","agenda":"agenda.html","noticia":"noticia-{id}.html","media":"media/"},"hoja":null,"tablon_json":"contenido/tablon.json","v_datos":"29ef6a3d"}</script>
+<script src="js/vivo.js?v=2aa76ce9" defer></script>
+<script src="js/main.js?v=85569bbf" defer></script>
+
+</body>
+</html>
+

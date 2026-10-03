@@ -1,0 +1,52 @@
+{
+  "_leeme": "GENERADO por scripts/tablon.mjs. Se puede editar a mano titulo_claro (título en lenguaje claro), tema (+ \"tema_manual\": true) y oculto. Lo demás se pisa al refrescar.",
+  "fuente": "https://fuentedecantos.sedelectronica.es/board (copia del 03/10/2026)",
+  "actualizado": "2026-10-03T10:54:37.179Z",
+  "excluidas": 7,
+  "motivos_exclusion": [
+    "lista de un proceso de selección",
+    "lista de admitidos y excluidos",
+    "acta de selección"
+  ],
+  "entradas": [
+    {
+      "titulo": "ACTA DEL PLENO 2026-0003 [Acta 3-2026]",
+      "descripcion": "Acta de sesión plenaria 30 de junio de 2026",
+      "expediente": "PLN/2026/3",
+      "procedimiento": "Convocatoria de El Pleno",
+      "categoria": "Órganos de gobierno",
+      "fecha": "2026-09-23",
+      "url": "https://fuentedecantos.sedelectronica.es/preview-document/1ef6a2f8-86fd-4008-a535-ecfe11a745fc",
+      "tema": "Pleno",
+      "tema_manual": false,
+      "titulo_claro": "Acta del Pleno del 30 de junio de 2026",
+      "oculto": false
+    },
+    {
+      "titulo": "Anuncio de la convocatoria",
+      "descripcion": "CONVOCATORIA DE PLENO DE SEPTIEMBRE",
+      "expediente": "PLN/2026/4",
+      "procedimiento": "Convocatoria de El Pleno",
+      "categoria": "Anuncios",
+      "fecha": "2026-09-23",
+      "url": "https://fuentedecantos.sedelectronica.es/preview-document/c7b30ca1-b41c-4747-b561-9f16989ee824",
+      "tema": "Pleno",
+      "tema_manual": false,
+      "titulo_claro": "Convocatoria del Pleno de septiembre",
+      "oculto": false
+    },
+    {
+      "titulo": "PLANTILLA DE RESPUESTAS ENFERMERO-A",
+      "descripcion": "PLANTILLA DE RESPUESTAS DEL CUESTIONARIO DE ENFERMERIA",
+      "expediente": "371/2026",
+      "procedimiento": "Selecciones de Personal y Provisiones de Puestos",
+      "categoria": "Anuncios",
+      "fecha": "2026-09-22",
+      "url": "https://fuentedecantos.sedelectronica.es/preview-document/b640305a-e54c-41b7-bdd8-245e608995ec",
+      "tema": "Empleo",
+      "tema_manual": true,
+      "titulo_claro": "Respuestas del examen de la bolsa de enfermería",
+      "oculto": false
+    }
+  ]
+}

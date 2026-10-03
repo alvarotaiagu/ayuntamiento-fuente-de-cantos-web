@@ -1,0 +1,64 @@
+{
+  "_leeme": "Noticias. Campos: id (sale en la dirección: noticia-<id>.html), fecha, titulo, resumen, cuerpo (lista de párrafos), imagen (nombre en media/, sin .jpg) + imagen_alt, fuente {nombre, url}, fecha_aproximada. Fuentes: Instagram del Ayuntamiento, tablón de la sede y su web (ver DATOS.md).",
+  "noticias": [
+    {
+      "id": "puertas-abiertas-guardia-civil",
+      "fecha": "2026-10-01",
+      "titulo": "La Guardia Civil abre su cuartel a los niños y niñas el 8 de octubre",
+      "resumen": "Una jornada de puertas abiertas en el cuartel de Fuente de Cantos.",
+      "cuerpo": ["El cuartel de la Guardia Civil de Fuente de Cantos, en la calle Real, celebra el 8 de octubre una jornada de puertas abiertas para niños y niñas."],
+      "fuente": { "nombre": "Instagram del Ayuntamiento", "url": "https://www.instagram.com/p/Dd-CbutnasC/" }
+    },
+    {
+      "id": "dia-lenguas-extremadura",
+      "fecha": "2026-09-24",
+      "titulo": "Fuente de Cantos celebró el Día de las Lenguas de Extremadura",
+      "resumen": "Talleres, mesas redondas y migas en el Convento de San Diego, y conciertos por la noche.",
+      "cuerpo": [
+        "El 26 de septiembre, el Convento de San Diego acogió talleres, mesas redondas y unas migas solidarias por el Día de las Lenguas de Extremadura. La inscripción era gratuita en la Oficina de Turismo.",
+        "Por la noche hubo conciertos de Emblay, Diván du Don y Leo Sánchez en la Nave Multiusos del Recinto Ferial, con entrada gratuita. Lo organizó la Consejería de Cultura de la Junta de Extremadura."
+      ],
+      "imagen": "san-diego",
+      "imagen_alt": "Fachada ocre del antiguo Convento de San Diego entre árboles",
+      "fuente": { "nombre": "Instagram del Ayuntamiento", "url": "https://www.instagram.com/p/DdZ2fEgjEqd/" }
+    },
+    {
+      "id": "pleno-septiembre",
+      "fecha": "2026-09-23",
+      "titulo": "Convocado el Pleno de septiembre y publicada el acta del de junio",
+      "resumen": "Los dos documentos están en el tablón de la sede electrónica.",
+      "cuerpo": ["El Ayuntamiento ha publicado en el tablón de anuncios la convocatoria del Pleno de septiembre y el acta de la sesión del 30 de junio de 2026."],
+      "fuente": { "nombre": "Tablón de anuncios de la sede", "url": "https://fuentedecantos.sedelectronica.es/board" }
+    },
+    {
+      "id": "encuentro-poetico-musical",
+      "fecha": "2026-09-13",
+      "titulo": "VI Encuentro Poético-Musical «Villa de Zurbarán»",
+      "resumen": "El 19 de septiembre, a las 20:00, en el Teatro Municipal, con entrada gratuita.",
+      "cuerpo": ["El Teatro Municipal acogió el 19 de septiembre, a las 20:00, el VI Encuentro Poético-Musical «Villa de Zurbarán», con entrada gratuita."],
+      "fuente": { "nombre": "Instagram del Ayuntamiento", "url": "https://www.instagram.com/p/DdPvYeil4VP/" }
+    },
+    {
+      "id": "prevencion-caidas-mayores",
+      "fecha": "2026-08-26",
+      "titulo": "Jornadas de prevención de caídas para mayores de 60 años",
+      "resumen": "Tres sesiones gratuitas dentro de «Fuente de Cantos, Ciudad Saludable».",
+      "cuerpo": [
+        "El Ayuntamiento organizó jornadas de prevención de lesiones y caídas para mayores de 60 años: el 28 y el 31 de agosto en el Polideportivo y el 1 de septiembre en la Casa de la Cultura, de 12:30 a 14:00.",
+        "La inscripción era gratuita en el Polideportivo, en el 924 580 220. Las jornadas forman parte de «Fuente de Cantos, Ciudad Saludable»."
+      ],
+      "fuente": { "nombre": "Instagram del Ayuntamiento", "url": "https://www.instagram.com/p/Dcf8uz2gOrd/" }
+    },
+    {
+      "id": "nuevo-centro-de-salud",
+      "fecha": "2025-07-30",
+      "titulo": "Abre el nuevo Centro de Salud",
+      "resumen": "En la calle San Julián, para una población de referencia de más de 7.500 personas.",
+      "cuerpo": [
+        "La presidenta de la Junta de Extremadura inauguró el 30 de julio de 2025 el nuevo Centro de Salud de Fuente de Cantos, en la calle San Julián. Atiende a más de 7.500 personas, también de Bienvenida y Calzadilla de los Barros.",
+        "Urgencias: 924 500 951. Cita previa: 924 580 192."
+      ],
+      "fuente": { "nombre": "Web del Ayuntamiento", "url": "https://www.fuentedecantos.eu/2025/07/30/la-presidenta-de-la-junta-de-extremadura-maria-guardiola-inaugura-el-nuevo-centro-de-salud-de-fuente-de-cantos/" }
+    }
+  ]
+}

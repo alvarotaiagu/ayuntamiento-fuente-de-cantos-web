@@ -1,0 +1,13 @@
+[
+  { "origen": "../../ayuntamiento-fuente-de-cantos-bocetos/fotos-commons/iglesia-granada-sergueibubu.jpg", "salida": "plaza-parroquia" },
+  { "origen": "../../ayuntamiento-fuente-de-cantos-bocetos/fotos-commons/iglesia-granada-fachada-sur.jpg", "salida": "parroquia", "recorte": [0, 0, 1, 0.8] },
+  { "origen": "../../ayuntamiento-fuente-de-cantos-bocetos/fotos-commons/ayuntamiento-fachada.jpg", "salida": "ayuntamiento", "recorte": [0.05, 0, 1, 0.86] },
+  { "origen": "../../ayuntamiento-fuente-de-cantos-bocetos/fotos-web/18-DSCN1271.jpg", "salida": "casa-natal" },
+  { "origen": "../../ayuntamiento-fuente-de-cantos-bocetos/fotos-web/23-hermosa-2.jpg", "salida": "hermosa" },
+  { "origen": "../../ayuntamiento-fuente-de-cantos-bocetos/fotos-web/41-DSC01651.jpg", "salida": "san-juan" },
+  { "origen": "../../ayuntamiento-fuente-de-cantos-bocetos/fotos-commons/ermita-san-isidro-caballo.jpg", "salida": "san-isidro" },
+  { "origen": "../../ayuntamiento-fuente-de-cantos-bocetos/fotos-web/273-Albergue_turistico_fuente_de_cantos-18.jpg", "salida": "san-diego" },
+  { "origen": "../../ayuntamiento-fuente-de-cantos-bocetos/fotos-web/177-DSC04139-e1421095290584.jpg", "salida": "castillejos" },
+  { "origen": "../../ayuntamiento-fuente-de-cantos-bocetos/fotos-commons/estatua-zurbaran-02.jpg", "salida": "estatua-zurbaran" },
+  { "origen": "../../ayuntamiento-fuente-de-cantos-bocetos/fotos-web/80-DSC_3059.jpg", "salida": "chanfaina", "recorte": [0, 0.2, 1, 1] }
+]
