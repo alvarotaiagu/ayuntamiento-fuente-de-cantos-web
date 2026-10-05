@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:fiesta-romeria-de-san-isidro-2026@fuente-de-cantos.agenda
-DTSTAMP:20261005T111204Z
+DTSTAMP:20261005T211816Z
 DTSTART;VALUE=DATE:20260515
 DTEND;VALUE=DATE:20260516
 SUMMARY:Romería de San Isidro
@@ -37,7 +37,7 @@ URL:https://alvarotaiagu.github.io/ayuntamiento-fuente-de-cantos-web/agenda
 END:VEVENT
 BEGIN:VEVENT
 UID:fiesta-fiestas-del-jubileo-y-san-roque-2026@fuente-de-cantos.agenda
-DTSTAMP:20261005T111204Z
+DTSTAMP:20261005T211816Z
 DTSTART;VALUE=DATE:20260814
 DTEND;VALUE=DATE:20260815
 SUMMARY:Fiestas del Jubileo y San Roque
@@ -48,7 +48,7 @@ URL:https://alvarotaiagu.github.io/ayuntamiento-fuente-de-cantos-web/agenda
 END:VEVENT
 BEGIN:VEVENT
 UID:coches-clasicos@fuente-de-cantos.agenda
-DTSTAMP:20261005T111204Z
+DTSTAMP:20261005T211816Z
 DTSTART;VALUE=DATE:20260906
 DTEND;VALUE=DATE:20260907
 SUMMARY:Concentración de coches clásicos
@@ -59,7 +59,7 @@ URL:https://alvarotaiagu.github.io/ayuntamiento-fuente-de-cantos-web/agenda
 END:VEVENT
 BEGIN:VEVENT
 UID:fiesta-nuestra-senora-de-la-hermosa-2026@fuente-de-cantos.agenda
-DTSTAMP:20261005T111204Z
+DTSTAMP:20261005T211816Z
 DTSTART;VALUE=DATE:20260908
 DTEND;VALUE=DATE:20260909
 SUMMARY:Nuestra Señora de la Hermosa
@@ -69,7 +69,7 @@ URL:https://alvarotaiagu.github.io/ayuntamiento-fuente-de-cantos-web/agenda
 END:VEVENT
 BEGIN:VEVENT
 UID:encuentro-poetico-musical@fuente-de-cantos.agenda
-DTSTAMP:20261005T111204Z
+DTSTAMP:20261005T211816Z
 DTSTART;TZID=Europe/Madrid:20260919T200000
 DTEND;TZID=Europe/Madrid:20260919T210000
 SUMMARY:VI Encuentro Poético-Musical «Villa de Zurbarán»
@@ -79,7 +79,7 @@ URL:https://alvarotaiagu.github.io/ayuntamiento-fuente-de-cantos-web/agenda
 END:VEVENT
 BEGIN:VEVENT
 UID:dia-lenguas-extremadura@fuente-de-cantos.agenda
-DTSTAMP:20261005T111204Z
+DTSTAMP:20261005T211816Z
 DTSTART;VALUE=DATE:20260926
 DTEND;VALUE=DATE:20260927
 SUMMARY:Día de las Lenguas de Extremadura
@@ -90,7 +90,7 @@ URL:https://alvarotaiagu.github.io/ayuntamiento-fuente-de-cantos-web/agenda
 END:VEVENT
 BEGIN:VEVENT
 UID:puertas-abiertas-guardia-civil@fuente-de-cantos.agenda
-DTSTAMP:20261005T111204Z
+DTSTAMP:20261005T211816Z
 DTSTART;VALUE=DATE:20261008
 DTEND;VALUE=DATE:20261009
 SUMMARY:Puertas abiertas de la Guardia Civil para niños y niñas
@@ -100,7 +100,7 @@ URL:https://alvarotaiagu.github.io/ayuntamiento-fuente-de-cantos-web/agenda
 END:VEVENT
 BEGIN:VEVENT
 UID:fiesta-romeria-de-san-isidro-2027@fuente-de-cantos.agenda
-DTSTAMP:20261005T111204Z
+DTSTAMP:20261005T211816Z
 DTSTART;VALUE=DATE:20270515
 DTEND;VALUE=DATE:20270516
 SUMMARY:Romería de San Isidro
@@ -111,7 +111,7 @@ URL:https://alvarotaiagu.github.io/ayuntamiento-fuente-de-cantos-web/agenda
 END:VEVENT
 BEGIN:VEVENT
 UID:fiesta-fiestas-del-jubileo-y-san-roque-2027@fuente-de-cantos.agenda
-DTSTAMP:20261005T111204Z
+DTSTAMP:20261005T211816Z
 DTSTART;VALUE=DATE:20270814
 DTEND;VALUE=DATE:20270815
 SUMMARY:Fiestas del Jubileo y San Roque
@@ -122,7 +122,7 @@ URL:https://alvarotaiagu.github.io/ayuntamiento-fuente-de-cantos-web/agenda
 END:VEVENT
 BEGIN:VEVENT
 UID:fiesta-nuestra-senora-de-la-hermosa-2027@fuente-de-cantos.agenda
-DTSTAMP:20261005T111204Z
+DTSTAMP:20261005T211816Z
 DTSTART;VALUE=DATE:20270908
 DTEND;VALUE=DATE:20270909
 SUMMARY:Nuestra Señora de la Hermosa
