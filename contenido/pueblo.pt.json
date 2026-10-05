@@ -1,0 +1,298 @@
+{
+ "_leeme": "«El pueblo» en portugués de Portugal (pueblo-pt.html). Lo lee scripts/aplicar.mjs: cada texto va emparejado por el nombre en castellano de municipio.json → pueblo. Si falta alguno, la página no se genera. Los nombres propios y los topónimos no se traducen.",
+ "nombre_idioma": "Português",
+ "og_locale": "pt_PT",
+ "pagina": {
+  "titulo": "A vila",
+  "titulo_doc": "A vila · Fuente de Cantos",
+  "entradilla": "A caminho de Sevilha, na Via da Prata, onde começam as faldas da Serra Morena. A vila onde nasceu Francisco de Zurbarán.",
+  "descripcion": "História, património, festas e gastronomia de Fuente de Cantos (Badajoz, Espanha)."
+ },
+ "cabecera_alt": "A fachada branca da Casa Consistorial (câmara municipal) com varanda e bandeiras, entre palmeiras",
+ "ui": {
+  "idiomas": "Idiomas desta página",
+  "aviso_idioma": "O resto do sítio está em espanhol.",
+  "que_ver": "O que ver",
+  "para_visitar": "Para visitar",
+  "historia": "História",
+  "patrimonio": "Património",
+  "fiestas": "Festas",
+  "gastronomia": "Gastronomia",
+  "platos": "Pratos",
+  "dulces": "Doces",
+  "para_beber": "Para beber",
+  "personajes": "Personalidades",
+  "rutas": "Percursos pedestres",
+  "ver_la_ruta": "Ver o percurso (em espanhol)",
+  "comer_dormir": "Onde comer e dormir",
+  "llamar_a": "Ligar para",
+  "otra_web": ", abre outro sítio",
+  "negocios_privados": "São negócios privados: a Câmara Municipal não se responsabiliza pelos seus dados.",
+  "creditos": "Créditos das fotografias",
+  "ficha_foto": "ficha da fotografia",
+  "foto": "Foto:",
+  "termino_titulo": "O concelho num mapa",
+  "termino_pie": "Mapa do território municipal de {nombre}, desenhado com dados do OpenStreetMap{fecha}.",
+  "termino_fecha": " a {fecha}",
+  "termino_lugares": "Lugares do mapa",
+  "termino_leer": "Como ler o mapa",
+  "clave_limite": "Limite do território municipal (linha tracejada)",
+  "clave_casco": "A vila (área sombreada)",
+  "clave_carreteras": "Estradas (linha grossa)",
+  "clave_rutas": "Percursos (linha de pontos)",
+  "clave_puntos": "Círculo com número: um lugar da lista",
+  "clave_escala": "Escala: a barra de baixo mede",
+  "clave_recuadro": "Detalhe: a vila ampliada; a sua barra mede",
+  "clave_guia": "Linha fina com um ponto: o sítio exato, quando o número foi afastado para se poder ler",
+  "fiesta_mayor": "Festa principal",
+  "sin_fiestas": "Sem festas neste mês",
+  "migas": "Está aqui",
+  "inicio": "Início (em espanhol)",
+  "en_esta_pagina": "Nesta página"
+ },
+ "pueblo": {
+  "historia": [
+   "Os cerros de Los Castillejos, junto à vila, estiveram habitados desde o Neolítico até à época romana. A zona era passagem obrigatória entre Mérida e o vale do Guadalquivir.",
+   "O nome de Fuente de Cantos aparece com a conquista cristã, por volta de 1240. O primeiro documento do arquivo municipal é de 1293. A vila pertenceu à Comenda de Montemolín, da Ordem de Santiago, depois foi de realengo e, no século XIX, foi sede de comarca judicial.",
+   "Aqui nasceu o pintor Francisco de Zurbarán: foi batizado na igreja paroquial a 7 de novembro de 1598. Nenhuma das suas mais de 600 obras catalogadas se conserva hoje na vila, mas a sua casa natal pode visitar-se.",
+   "O termo municipal tem 251,8 km² e a vila está a 582 metros de altitude, entre vinhas, olivais, montado e searas. Pertence à comarca de Tentudía e à comarca judicial de Zafra."
+  ],
+  "lugares": {
+   "Parroquia de Nuestra Señora de la Granada": {
+    "nombre": "Igreja paroquial de Nuestra Señora de la Granada",
+    "texto": "Bem de Interesse Cultural. Guarda a pia batismal do século XVI em que foi batizado Zurbarán.",
+    "alt": "Fachada da igreja paroquial com a torre do relógio, o cubo de pedra da torre velha e ninhos de cegonha"
+   },
+   "Casa natal de Zurbarán": {
+    "nombre": "Casa natal de Zurbarán",
+    "texto": "Na Calle Águilas. Reabilitada em 2014, com seis salas sobre o pintor e a sua época.",
+    "alt": "Fachada caiada com um portão de madeira, o número 37 e duas placas"
+   },
+   "Santuario de la Hermosa": {
+    "nombre": "Santuário da Hermosa (Santuario de la Hermosa)",
+    "texto": "O santuário da padroeira, do século XV, remodelado no XVIII.",
+    "alt": "Uma rua de casas brancas que termina na fachada branca do santuário, com a sua empena sineira"
+   },
+   "Casa Consistorial": {
+    "nombre": "Casa Consistorial (câmara municipal)",
+    "texto": "Na Plaza de la Constitución, entre palmeiras.",
+    "alt": "Fachada branca da câmara municipal com varanda e bandeiras, entre palmeiras"
+   },
+   "Ermita de San Juan de Letrán": {
+    "nombre": "Ermida de San Juan de Letrán",
+    "texto": "Nasceu como hospital em 1515. É uma das duas ermidas que se podem visitar.",
+    "alt": "Ermida caiada com a sua capela e a porta gradeada, sob o céu azul"
+   },
+   "Convento de San Diego": {
+    "nombre": "Convento de San Diego",
+    "texto": "Franciscano, com a igreja terminada em 1624. Hoje acolhe atos culturais.",
+    "alt": "Fachada ocre do antigo convento entre árvores"
+   },
+   "Ermita de San Isidro": {
+    "nombre": "Ermida de San Isidro",
+    "texto": "No prado da romaria, nos arredores.",
+    "alt": "Ermida branca com lanterna e um cavaleiro com o cavalo empinado à frente"
+   },
+   "Monumento a Zurbarán": {
+    "nombre": "Monumento a Zurbarán",
+    "texto": "O pintor, em bronze e com a sua paleta, no parque que leva o seu nome.",
+    "alt": "Estátua de bronze de Zurbarán com a paleta, sobre um pedestal de granito"
+   },
+   "Los Castillejos": {
+    "texto": "Sítio arqueológico com muralhas do Calcolítico e da Idade do Ferro, junto à estrada de Fregenal.",
+    "alt": "Muro de pedra seca do sítio arqueológico"
+   }
+  },
+  "patrimonio": {
+   "Parroquia de Nuestra Señora de la Granada": {
+    "nombre": "Igreja paroquial de Nuestra Señora de la Granada",
+    "detalle": "Bem de Interesse Cultural desde 1990. O cubo da torre velha é do século XV, a sacristia do XVI e a nave do XVIII. Guarda a Virgen de la Granada, do século XVI, uma imagem de São Roque, o padroeiro, e a pia batismal de mármore em que foi batizado Zurbarán."
+   },
+   "Santuario de Nuestra Señora de la Hermosa": {
+    "nombre": "Santuário de Nuestra Señora de la Hermosa",
+    "detalle": "Do século XV, remodelado no XVIII. No interior, uma tela americana do Cristo de la Encina e «La Aparecida», talha gótica do século XIV."
+   },
+   "Convento de las Carmelitas Descalzas": {
+    "nombre": "Convento das Carmelitas Descalças (Convento de las Carmelitas Descalzas)",
+    "detalle": "Fundado em 1649 por Juan de Escobar del Corro. Retábulo-mor de Juan Martínez de Vargas (1675)."
+   },
+   "Convento de San Diego": {
+    "nombre": "Convento de San Diego",
+    "detalle": "Franciscano. A igreja terminou-se em 1624 e o convento foi suprimido em 1835. Conserva a capela do Corazón de Jesús."
+   },
+   "Ermita de San Juan de Letrán": {
+    "nombre": "Ermida de San Juan de Letrán",
+    "detalle": "Na Calle Almenas. Nasceu como hospital em 1515."
+   },
+   "Ermita de la Aurora": {
+    "nombre": "Ermida da Aurora",
+    "detalle": "Sem culto. Conserva a sua empena sineira barroca."
+   },
+   "Ermita de San Isidro": {
+    "nombre": "Ermida de San Isidro",
+    "detalle": "No prado onde se celebra a romaria."
+   },
+   "Casa de los Panea y Plaza de Zurbarán": {
+    "nombre": "Casa de los Panea e Plaza de Zurbarán",
+    "detalle": "A Casa de los Panea, a «Casa Perrete», e a praça modernista com o monumento ao Corazón de Jesús."
+   },
+   "Antigua fábrica harinera": {
+    "nombre": "Antiga fábrica de moagem (Antigua fábrica harinera)",
+    "detalle": "Do início do século XX, na Calle Real. Edifício protegido."
+   },
+   "Yacimiento de Los Castillejos I y II": {
+    "nombre": "Sítio arqueológico de Los Castillejos I e II",
+    "detalle": "Do Neolítico à época romana, com muralha calcolítica e muralha da Idade do Ferro."
+   },
+   "Colonias de cernícalo primilla": {
+    "nombre": "Colónias de peneireiro-das-torres",
+    "detalle": "O casco urbano é Zona de Proteção Especial para as Aves (ZEPA)."
+   },
+   "Artesanía campera": {
+    "nombre": "Artesanato campestre",
+    "detalle": "Panelas e colheres de madeira, colheres de chifre, botas camperas e chozos (cabanas de pastor)."
+   }
+  },
+  "fiestas": {
+   "Carnaval": {
+    "cuando": "Fevereiro ou março, com as comparsas (grupos de carnaval) no Teatro Municipal"
+   },
+   "Fiesta de la Chanfaina": {
+    "nombre": "Festa da Chanfaina (Fiesta de la Chanfaina)",
+    "cuando": "Último fim de semana de abril. Festa de Interesse Turístico da Extremadura"
+   },
+   "Romería de San Isidro": {
+    "nombre": "Romaria de San Isidro",
+    "cuando": "15 de maio. Festa de Interesse Turístico da Extremadura"
+   },
+   "Fiesta de San Juan": {
+    "nombre": "Festa de San Juan (Fiesta de San Juan)",
+    "cuando": "No sábado mais próximo de 24 de junho, no bairro de San Juan"
+   },
+   "Fiestas del Jubileo y San Roque": {
+    "nombre": "Festas do Jubileo e de San Roque (Fiestas del Jubileo y San Roque)",
+    "cuando": "De 14 a 18 de agosto; San Roque, o padroeiro, a 16"
+   },
+   "Nuestra Señora de la Hermosa": {
+    "cuando": "8 de setembro, festas da padroeira"
+   },
+   "Otoño Flamenco": {
+    "nombre": "Otoño Flamenco (Outono Flamenco)",
+    "cuando": "Outubro, no Teatro Municipal"
+   },
+   "Premio Internacional de Pintura «Francisco de Zurbarán»": {
+    "nombre": "Prémio Internacional de Pintura «Francisco de Zurbarán»",
+    "cuando": "Novembro"
+   }
+  },
+  "platos": [
+   "Chanfaina de cordero (guisado de borrego, o prato emblema da vila)",
+   "Caldereta (caldeirada)",
+   "Migas (pão migado frito)",
+   "Gazpacho (gaspacho)",
+   "Cocido extremeño (cozido extremenho)",
+   "Espárragos trigueros (espargos bravos)",
+   "Setas (cogumelos)",
+   "Productos del cerdo ibérico (produtos do porco ibérico)"
+  ],
+  "dulces": [
+   "Perrunillas (biscoitos de manteiga)",
+   "Bollitas de chicharrones (bolinhos de torresmos)",
+   "Piononos (pequenos bolos de esponja)"
+  ],
+  "bebidas": [],
+  "gastronomia_alt": "Um caldeiro de chanfaina a ferver sobre as brasas de uma fogueira",
+  "personajes": {
+   "Francisco de Zurbarán": {
+    "fechas": "1598-1664",
+    "texto": "Pintor do Século de Ouro. Batizado na igreja paroquial de Fuente de Cantos, formou-se em Sevilha e estabeleceu-se em Llerena em 1617."
+   },
+   "Nicolás Megía": {
+    "fechas": "1845-1917",
+    "texto": "Pintor. Medalha em 1890 por «La defensa de Zaragoza». Dá nome a uma rua, a um parque e à escola infantil."
+   },
+   "Juan de Escobar del Corro": {
+    "fechas": "Século XVII",
+    "texto": "Fundou em 1649 o colégio que deu origem ao convento das Carmelitas Descalças."
+   }
+  },
+  "rutas": {
+   "Vía de la Plata: Fuente de Cantos - Zafra": {
+    "resumen": "24 km entre olivais e searas de cereal, com povoações com serviços aos 6 e aos 20 km."
+   },
+   "Fuente El Lobo": {
+    "resumen": "17 km, dificuldade baixa. Da Plaza de Colón por La Senda até à fonte; regresso pelo caminho de Bienvenida."
+   },
+   "La Cañada Real - La Senda": {
+    "resumen": "14 km, dificuldade média. Pela ermida de San Juan e pela Cañada Real (caminho de gado) até ao cerro Cabeza Gorda."
+   },
+   "Las Zorrillas": {
+    "resumen": "17 km, dificuldade média. Pelo caminho de Monesterio e pela vereda de los Carboneros (caminho de gado)."
+   },
+   "Cortijo Palominos": {
+    "resumen": "22 km, dificuldade média. Pelo caminho de Monesterio até Las Zorrillas; regresso pelo Caminho de Santiago."
+   },
+   "Las Horneras": {
+    "resumen": "23 km, dificuldade média. Pela vereda de los Carboneros (caminho de gado); regresso pelo caminho de Bienvenida."
+   },
+   "Las Talliscas - Bodión - El Risco": {
+    "resumen": "20 km, dificuldade média. Pelo caminho de Valencia del Ventoso até ao rio Bodión."
+   },
+   "La Argamasa": {
+    "resumen": "33 km, dificuldade média. Pelo Caminho de Santiago e Calzadilla; regresso pela Via da Prata."
+   }
+  }
+ },
+ "creditos": {
+  "plaza-parroquia": {
+   "titulo": "Praça e torre da igreja paroquial (foto de capa)",
+   "nota": "Com gradação de cor própria"
+  },
+  "parroquia": {
+   "titulo": "Igreja paroquial de Nuestra Señora de la Granada",
+   "nota": "Recortada e com gradação de cor própria"
+  },
+  "ayuntamiento": {
+   "titulo": "Casa Consistorial (câmara municipal)",
+   "nota": "Recortada e com gradação de cor própria"
+  },
+  "casa-natal": {
+   "titulo": "Casa natal de Francisco de Zurbarán",
+   "autor": "Sítio web da Câmara Municipal",
+   "nota": "Só para esta proposta: é preciso a autorização da Câmara Municipal para a publicar"
+  },
+  "hermosa": {
+   "titulo": "Santuário de Nuestra Señora de la Hermosa",
+   "autor": "Sítio web da Câmara Municipal",
+   "nota": "Só para esta proposta: é preciso a autorização da Câmara Municipal para a publicar"
+  },
+  "san-juan": {
+   "titulo": "Ermida de San Juan de Letrán",
+   "autor": "Sítio web da Câmara Municipal",
+   "nota": "Só para esta proposta: é preciso a autorização da Câmara Municipal para a publicar"
+  },
+  "san-isidro": {
+   "titulo": "Ermida de San Isidro",
+   "nota": "Com gradação de cor própria"
+  },
+  "san-diego": {
+   "titulo": "Convento de San Diego",
+   "autor": "Sítio web da Câmara Municipal",
+   "nota": "Só para esta proposta: é preciso a autorização da Câmara Municipal para a publicar"
+  },
+  "castillejos": {
+   "titulo": "Sítio arqueológico de Los Castillejos",
+   "autor": "Sítio web da Câmara Municipal",
+   "nota": "Só para esta proposta: é preciso a autorização da Câmara Municipal para a publicar"
+  },
+  "estatua-zurbaran": {
+   "titulo": "Estátua de Zurbarán",
+   "nota": "Com gradação de cor própria"
+  },
+  "chanfaina": {
+   "titulo": "Um caldeiro de chanfaina",
+   "autor": "Sítio web da Câmara Municipal",
+   "nota": "Só para esta proposta: é preciso a autorização da Câmara Municipal para a publicar"
+  }
+ }
+}

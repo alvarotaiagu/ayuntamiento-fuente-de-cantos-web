@@ -1,0 +1,133 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ayuntamiento de Fuente de Cantos//Agenda//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Agenda de Fuente de Cantos
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Madrid
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:fiesta-romeria-de-san-isidro-2026@fuente-de-cantos.agenda
+DTSTAMP:20261005T105103Z
+DTSTART;VALUE=DATE:20260515
+DTEND;VALUE=DATE:20260516
+SUMMARY:Romería de San Isidro
+LOCATION:15 de mayo. Fiesta de Interés Turístico de Extremadura\, Fuente 
+ de Cantos
+URL:https://alvarotaiagu.github.io/ayuntamiento-fuente-de-cantos-web/agenda
+ .html#evento-fiesta-romeria-de-san-isidro-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:fiesta-fiestas-del-jubileo-y-san-roque-2026@fuente-de-cantos.agenda
+DTSTAMP:20261005T105103Z
+DTSTART;VALUE=DATE:20260814
+DTEND;VALUE=DATE:20260815
+SUMMARY:Fiestas del Jubileo y San Roque
+LOCATION:Del 14 al 18 de agosto\; San Roque\, el patrón\, el 16\, Fuente d
+ e Cantos
+URL:https://alvarotaiagu.github.io/ayuntamiento-fuente-de-cantos-web/agenda
+ .html#evento-fiesta-fiestas-del-jubileo-y-san-roque-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:coches-clasicos@fuente-de-cantos.agenda
+DTSTAMP:20261005T105103Z
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260907
+SUMMARY:Concentración de coches clásicos
+LOCATION:Organiza el Motor Club Fuente de Cantos\, en las fiestas de la Her
+ mosa\, Fuente de Cantos
+URL:https://alvarotaiagu.github.io/ayuntamiento-fuente-de-cantos-web/agenda
+ .html#evento-coches-clasicos
+END:VEVENT
+BEGIN:VEVENT
+UID:fiesta-nuestra-senora-de-la-hermosa-2026@fuente-de-cantos.agenda
+DTSTAMP:20261005T105103Z
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+SUMMARY:Nuestra Señora de la Hermosa
+LOCATION:8 de septiembre\, fiestas patronales\, Fuente de Cantos
+URL:https://alvarotaiagu.github.io/ayuntamiento-fuente-de-cantos-web/agenda
+ .html#evento-fiesta-nuestra-senora-de-la-hermosa-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:encuentro-poetico-musical@fuente-de-cantos.agenda
+DTSTAMP:20261005T105103Z
+DTSTART;TZID=Europe/Madrid:20260919T200000
+DTEND;TZID=Europe/Madrid:20260919T210000
+SUMMARY:VI Encuentro Poético-Musical «Villa de Zurbarán»
+LOCATION:Teatro Municipal\, Fuente de Cantos
+URL:https://alvarotaiagu.github.io/ayuntamiento-fuente-de-cantos-web/agenda
+ .html#evento-encuentro-poetico-musical
+END:VEVENT
+BEGIN:VEVENT
+UID:dia-lenguas-extremadura@fuente-de-cantos.agenda
+DTSTAMP:20261005T105103Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:Día de las Lenguas de Extremadura
+LOCATION:Convento de San Diego y Nave Multiusos del Recinto Ferial\, Fuente
+  de Cantos
+URL:https://alvarotaiagu.github.io/ayuntamiento-fuente-de-cantos-web/agenda
+ .html#evento-dia-lenguas-extremadura
+END:VEVENT
+BEGIN:VEVENT
+UID:puertas-abiertas-guardia-civil@fuente-de-cantos.agenda
+DTSTAMP:20261005T105103Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:Puertas abiertas de la Guardia Civil para niños y niñas
+LOCATION:Cuartel de la Guardia Civil\, C/ Real\, 84\, Fuente de Cantos
+URL:https://alvarotaiagu.github.io/ayuntamiento-fuente-de-cantos-web/agenda
+ .html#evento-puertas-abiertas-guardia-civil
+END:VEVENT
+BEGIN:VEVENT
+UID:fiesta-romeria-de-san-isidro-2027@fuente-de-cantos.agenda
+DTSTAMP:20261005T105103Z
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270516
+SUMMARY:Romería de San Isidro
+LOCATION:15 de mayo. Fiesta de Interés Turístico de Extremadura\, Fuente 
+ de Cantos
+URL:https://alvarotaiagu.github.io/ayuntamiento-fuente-de-cantos-web/agenda
+ .html#evento-fiesta-romeria-de-san-isidro-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:fiesta-fiestas-del-jubileo-y-san-roque-2027@fuente-de-cantos.agenda
+DTSTAMP:20261005T105103Z
+DTSTART;VALUE=DATE:20270814
+DTEND;VALUE=DATE:20270815
+SUMMARY:Fiestas del Jubileo y San Roque
+LOCATION:Del 14 al 18 de agosto\; San Roque\, el patrón\, el 16\, Fuente d
+ e Cantos
+URL:https://alvarotaiagu.github.io/ayuntamiento-fuente-de-cantos-web/agenda
+ .html#evento-fiesta-fiestas-del-jubileo-y-san-roque-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:fiesta-nuestra-senora-de-la-hermosa-2027@fuente-de-cantos.agenda
+DTSTAMP:20261005T105103Z
+DTSTART;VALUE=DATE:20270908
+DTEND;VALUE=DATE:20270909
+SUMMARY:Nuestra Señora de la Hermosa
+LOCATION:8 de septiembre\, fiestas patronales\, Fuente de Cantos
+URL:https://alvarotaiagu.github.io/ayuntamiento-fuente-de-cantos-web/agenda
+ .html#evento-fiesta-nuestra-senora-de-la-hermosa-2027
+END:VEVENT
+END:VCALENDAR

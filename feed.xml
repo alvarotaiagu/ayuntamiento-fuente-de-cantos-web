@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
+  <title>Avisos y noticias · Ayuntamiento de Fuente de Cantos</title>
+  <subtitle>Lo que publica el Ayuntamiento de Fuente de Cantos: avisos (cortes, convocatorias, plazos) y noticias.</subtitle>
+  <id>urn:uuid:e890b46e-6915-0e51-7cc5-c564eab4f73a</id>
+  <link rel="self" type="application/atom+xml" href="https://alvarotaiagu.github.io/ayuntamiento-fuente-de-cantos-web/feed.xml"/>
+  <link rel="alternate" type="text/html" href="https://alvarotaiagu.github.io/ayuntamiento-fuente-de-cantos-web/avisos.html"/>
+  <updated>2026-10-01T09:00:00+02:00</updated>
+  <author><name>Ayuntamiento de Fuente de Cantos</name></author>
+  <icon>https://alvarotaiagu.github.io/ayuntamiento-fuente-de-cantos-web/marca/escudo-160.png</icon>
+  <entry>
+    <title>Publicada la lista definitiva del proceso de administrativo/a</title>
+    <id>urn:uuid:ced61fec-d3b5-0528-9d59-df30d4f37f02</id>
+    <link rel="alternate" type="text/html" href="https://alvarotaiagu.github.io/ayuntamiento-fuente-de-cantos-web/avisos.html#aviso-lista-administrativo"/>
+    <published>2026-10-01T09:00:00+02:00</published>
+    <updated>2026-10-01T09:00:00+02:00</updated>
+    <category term="aviso" label="Aviso"/>
+    <summary type="text">Está en el tablón de anuncios de la sede electrónica. Allí se publican también las siguientes fases del proceso.</summary>
+  </entry>
+  <entry>
+    <title>La Guardia Civil abre su cuartel a los niños y niñas el 8 de octubre</title>
+    <id>urn:uuid:c306049b-d5b2-a7ee-17eb-c38637065d04</id>
+    <link rel="alternate" type="text/html" href="https://alvarotaiagu.github.io/ayuntamiento-fuente-de-cantos-web/noticia-puertas-abiertas-guardia-civil.html"/>
+    <published>2026-10-01T09:00:00+02:00</published>
+    <updated>2026-10-01T09:00:00+02:00</updated>
+    <category term="noticia" label="Noticia"/>
+    <summary type="text">Una jornada de puertas abiertas en el cuartel de Fuente de Cantos.</summary>
+  </entry>
+  <entry>
+    <title>Fuente de Cantos celebró el Día de las Lenguas de Extremadura</title>
+    <id>urn:uuid:40312c4e-cfee-af14-6485-90ab6667bf1f</id>
+    <link rel="alternate" type="text/html" href="https://alvarotaiagu.github.io/ayuntamiento-fuente-de-cantos-web/noticia-dia-lenguas-extremadura.html"/>
+    <published>2026-09-24T09:00:00+02:00</published>
+    <updated>2026-09-24T09:00:00+02:00</updated>
+    <category term="noticia" label="Noticia"/>
+    <summary type="text">Talleres, mesas redondas y migas en el Convento de San Diego, y conciertos por la noche.</summary>
+  </entry>
+  <entry>
+    <title>Convocado el Pleno de septiembre y publicada el acta del de junio</title>
+    <id>urn:uuid:14a344a6-a88a-898b-f375-aacc34fb6e8b</id>
+    <link rel="alternate" type="text/html" href="https://alvarotaiagu.github.io/ayuntamiento-fuente-de-cantos-web/noticia-pleno-septiembre.html"/>
+    <published>2026-09-23T09:00:00+02:00</published>
+    <updated>2026-09-23T09:00:00+02:00</updated>
+    <category term="noticia" label="Noticia"/>
+    <summary type="text">Los dos documentos están en el tablón de la sede electrónica.</summary>
+  </entry>
+  <entry>
+    <title>VI Encuentro Poético-Musical «Villa de Zurbarán»</title>
+    <id>urn:uuid:0b33c8ca-37fb-6554-1e26-3e40c35065e1</id>
+    <link rel="alternate" type="text/html" href="https://alvarotaiagu.github.io/ayuntamiento-fuente-de-cantos-web/noticia-encuentro-poetico-musical.html"/>
+    <published>2026-09-13T09:00:00+02:00</published>
+    <updated>2026-09-13T09:00:00+02:00</updated>
+    <category term="noticia" label="Noticia"/>
+    <summary type="text">El 19 de septiembre, a las 20:00, en el Teatro Municipal, con entrada gratuita.</summary>
+  </entry>
+  <entry>
+    <title>Abierta la matrícula de los cursos de inglés</title>
+    <id>urn:uuid:6aa72577-1af1-e706-4c19-2d05e64560eb</id>
+    <link rel="alternate" type="text/html" href="https://alvarotaiagu.github.io/ayuntamiento-fuente-de-cantos-web/avisos.html#aviso-cursos-ingles-aupex"/>
+    <published>2026-09-12T09:00:00+02:00</published>
+    <updated>2026-09-12T09:00:00+02:00</updated>
+    <category term="aviso" label="Aviso"/>
+    <summary type="text">Los cursos del Centro Local de Idiomas de la Asociación de Universidades Populares de Extremadura (AUPEX). La matrícula se hace en su web.</summary>
+  </entry>
+  <entry>
+    <title>Jornadas de prevención de caídas para mayores de 60 años</title>
+    <id>urn:uuid:1f8cc1b1-aef4-7522-dcc6-b443e91ecce1</id>
+    <link rel="alternate" type="text/html" href="https://alvarotaiagu.github.io/ayuntamiento-fuente-de-cantos-web/noticia-prevencion-caidas-mayores.html"/>
+    <published>2026-08-26T09:00:00+02:00</published>
+    <updated>2026-08-26T09:00:00+02:00</updated>
+    <category term="noticia" label="Noticia"/>
+    <summary type="text">Tres sesiones gratuitas dentro de «Fuente de Cantos, Ciudad Saludable».</summary>
+  </entry>
+  <entry>
+    <title>Bando: limpieza de solares</title>
+    <id>urn:uuid:59686aca-8e35-108d-5904-07d7c7e31008</id>
+    <link rel="alternate" type="text/html" href="https://alvarotaiagu.github.io/ayuntamiento-fuente-de-cantos-web/avisos.html#aviso-bando-limpieza-solares"/>
+    <published>2026-06-24T09:00:00+02:00</published>
+    <updated>2026-06-24T09:00:00+02:00</updated>
+    <category term="aviso" label="Aviso"/>
+    <summary type="text">Los propietarios de solares y terrenos tienen que mantenerlos limpios. El bando completo está en la web municipal.</summary>
+  </entry>
+  <entry>
+    <title>Abre el nuevo Centro de Salud</title>
+    <id>urn:uuid:aa22debb-62be-d89b-15c2-84f2dc150251</id>
+    <link rel="alternate" type="text/html" href="https://alvarotaiagu.github.io/ayuntamiento-fuente-de-cantos-web/noticia-nuevo-centro-de-salud.html"/>
+    <published>2025-07-30T09:00:00+02:00</published>
+    <updated>2025-07-30T09:00:00+02:00</updated>
+    <category term="noticia" label="Noticia"/>
+    <summary type="text">En la calle San Julián, para una población de referencia de más de 7.500 personas.</summary>
+  </entry>
+</feed>

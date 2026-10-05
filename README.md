@@ -102,3 +102,23 @@ Las de Commons llevan recorte y gradación de color propios, y así se dice en �
 ## Antes de entregarla
 
 La receta completa está en [RESKIN.md](RESKIN.md) §9: fijar en la reunión la versión y el color, quitar el mando con `python scripts/quitar_mandos.py`, y poner `"propuesta": false` e `"indexar": true` solo cuando sea la web oficial en su dominio.
+
+
+---
+
+## v3 (2026-10-05)
+
+La web pasó a la v3 de la plantilla (v3 + v3b + v3c). Método: se superpuso el código de la plantilla (`scripts/`, `js/`, `css/`, `fuente/`, `.github/`, `plantillas-hoja/`, `pruebas/`…) y se conservaron `municipio.json`, `marca/`, `media/` y `contenido/`.
+- Los campos nuevos de `municipio.json` los añadió `../ayuntamiento-fuente-de-cantos-bocetos/_scripts/v3-datos.py` y las traducciones, `v3-idiomas.py`.
+- Datos añadidos: `ine` (**06052**, comprobado con la tabla del padrón del INE y con el DIR3 `L01060520`), `cifras` (padrón de 2025, 251,8 km² y 582 m, que coinciden en la Diputación, Wikidata y su web, y 1293, el año del primer documento del archivo; **sin distancia a Badajoz**: 101, 100 o 98 km según la fuente), `incidencias` (al correo del Ayuntamiento, por confirmar), `canal_avisos` (el canal de WhatsApp «Ayuntamiento De Fuente De Cantos», con sus pasos; ya no se repite entre las redes), `farmacias` (solo el buscador del Colegio: sin calendario de guardias), `transparencia` (con los huecos «Pendiente»; solo enlaza las dos páginas de ordenanzas de su web, con 200 el 5/10/2026), `propuesta_web` (cinco problemas de ERRORES.md, vueltos a comprobar el 5/10/2026, y captura real de fuentedecantos.eu), cuatro fotos para el arco de la portada y la cabecera de «El pueblo».
+- Arreglo de datos: `montar-municipio.mjs` había dejado repetido cinco veces «Pagar en línea una tasa o un recibo» (en «Tengo que pagar algo» y en el tema «Pagos e impuestos») y varias veces «Reservar una pista o el pabellón»; `v3-datos.py` quita los pasos repetidos.
+- Sin plazos: ningún aviso dice una fecha de cierre.
+- Nuevos: `contenido/facil.json` (lectura fácil: padrón, licencia de obra, pagar una tasa, reservar una pista y avisar de un problema; el pago y la reserva, según lo que dicen su portal de pagos y su web de reservas), `contenido/pueblo.en.json` y `pueblo.pt.json`, plano del pie (`way/223998587`, `amenity=townhall` «Ayuntamiento de Fuente de Cantos»), mapa del término desde OpenStreetMap (`relation/341690`; 5 de 17 lugares) y fotos igualadas (originales en `media/originales/`).
+- Los 5 lugares del mapa se comprobaron uno a uno con sus etiquetas de OSM, con Nominatim (la calle) y con las coordenadas del Turismo de la Diputación: la parroquia (`way/220879930`), la Casa de Zurbarán (`node/906071528`, museo en la calle Águilas), la ermita de San Juan (`node/8883639013`, junto a la fuente de la calle Almena), el santuario de la Hermosa (`node/911479118`, a 7 m de la coordenada de la Diputación) y la Casa Consistorial (`way/223998587`). Se descartó «Los Castillejos»: el nodo de OSM es una localidad a 1,3 km del yacimiento que sitúa la Diputación. Las copias de Overpass están en `../ayuntamiento-fuente-de-cantos-bocetos/_osm/`.
+- Cambios por los datos del pueblo: `scripts/verificar.mjs` (la prueba de precio ignora los `<script>`; V16 renombra la muestra a lugares de Fuente de Cantos; F25 comprueba los ids de OSM de arriba) y `css/imprimir.css` (la hoja de teléfonos de la nevera lleva 45 números: en papel, las notas de los grupos salen solo en la web, no salen las filas sin número y el alto de fila y los tamaños se compactan para que quepa en **una** A4).
+- `pruebas/segura-de-leon/` es el de la plantilla; este repo no tenía ninguna carpeta de otro municipio con datos de Ribera que actualizar.
+- **Pendiente**: perfil del pie real (ahora genérico), correo de incidencias y «Escríbanos» por confirmar, horario real de atención (sigue «Ejemplo»), `hoja.id` vacío, tablón sin autorización, el cierre real de la preinscripción de inglés de AUPEX (el aviso no da fecha) y revisar con una persona de habla inglesa y portuguesa las glosas de `pueblo.en/pt.json` y con personas usuarias el texto de lectura fácil.
+
+## Verificación (v3)
+
+`node scripts/verificar.mjs --capturas` el 5 de octubre de 2026: **174 de 174 comprobaciones** (`_verificar-v3.log`).

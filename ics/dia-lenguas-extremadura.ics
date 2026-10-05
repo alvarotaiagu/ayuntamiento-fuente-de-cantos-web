@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ayuntamiento de Fuente de Cantos//Agenda//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:dia-lenguas-extremadura@fuente-de-cantos.agenda
+DTSTAMP:20261005T105103Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:Día de las Lenguas de Extremadura
+LOCATION:Convento de San Diego y Nave Multiusos del Recinto Ferial\, Fuente
+  de Cantos
+URL:https://alvarotaiagu.github.io/ayuntamiento-fuente-de-cantos-web/agenda
+ .html#evento-dia-lenguas-extremadura
+END:VEVENT
+END:VCALENDAR

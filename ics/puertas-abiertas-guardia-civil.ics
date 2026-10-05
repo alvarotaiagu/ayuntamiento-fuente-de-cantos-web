@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ayuntamiento de Fuente de Cantos//Agenda//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:puertas-abiertas-guardia-civil@fuente-de-cantos.agenda
+DTSTAMP:20261005T105103Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:Puertas abiertas de la Guardia Civil para niños y niñas
+LOCATION:Cuartel de la Guardia Civil\, C/ Real\, 84\, Fuente de Cantos
+URL:https://alvarotaiagu.github.io/ayuntamiento-fuente-de-cantos-web/agenda
+ .html#evento-puertas-abiertas-guardia-civil
+END:VEVENT
+END:VCALENDAR

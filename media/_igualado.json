@@ -1,0 +1,271 @@
+{
+ "_leeme": "Lo escribe scripts/fotos-igualar.py: lo medido y lo aplicado a cada foto (no editar).",
+ "parametros": {
+  "LADO": 1600,
+  "LADO_MOVIL": 800,
+  "FUERZA_BLANCOS": 0.6,
+  "TOPE_BLANCOS": 0.07,
+  "MIN_GRISES": 0.03,
+  "NEGRO": 0.025,
+  "BLANCO": 0.965,
+  "TOPE_NIVELES": 1.3,
+  "MEDIANA": 0.52,
+  "GAMMA_MIN": 0.8,
+  "GAMMA_MAX": 1.1,
+  "CROMA": 0.115,
+  "SAT_MIN": 0.85,
+  "SAT_MAX": 1.12,
+  "CALIDO": 0.012,
+  "NITIDEZ": {
+   "radius": 1.0,
+   "percent": 35,
+   "threshold": 3
+  },
+  "CALIDAD": 84,
+  "CALIDAD_MOVIL": 82
+ },
+ "fotos": {
+  "ayuntamiento": {
+   "grises": 0.455,
+   "ganancia_rgb": [
+    1.0,
+    0.999,
+    1.012
+   ],
+   "niveles": [
+    0.043,
+    0.947
+   ],
+   "estira": 1.039,
+   "gamma": 1.1,
+   "croma_antes": 0.09,
+   "saturacion": 1.12,
+   "croma_despues": 0.103,
+   "mediana_despues": 0.525,
+   "tamano": [
+    1600,
+    1086
+   ]
+  },
+  "casa-natal": {
+   "grises": 0.712,
+   "ganancia_rgb": [
+    1.001,
+    1.0,
+    1.001
+   ],
+   "niveles": [
+    0.09,
+    0.848
+   ],
+   "estira": 1.241,
+   "gamma": 1.1,
+   "croma_antes": 0.043,
+   "saturacion": 1.12,
+   "croma_despues": 0.054,
+   "mediana_despues": 0.602,
+   "tamano": [
+    1600,
+    1200
+   ]
+  },
+  "castillejos": {
+   "grises": 0.598,
+   "ganancia_rgb": [
+    0.973,
+    1.007,
+    1.007
+   ],
+   "niveles": [
+    0.036,
+    0.994
+   ],
+   "estira": 0.981,
+   "gamma": 1.023,
+   "croma_antes": 0.054,
+   "saturacion": 1.12,
+   "croma_despues": 0.07,
+   "mediana_despues": 0.522,
+   "tamano": [
+    1600,
+    796
+   ]
+  },
+  "chanfaina": {
+   "grises": 0.737,
+   "ganancia_rgb": [
+    0.992,
+    1.001,
+    1.014
+   ],
+   "niveles": [
+    0.078,
+    0.997
+   ],
+   "estira": 1.022,
+   "gamma": 1.1,
+   "croma_antes": 0.044,
+   "saturacion": 1.12,
+   "croma_despues": 0.054,
+   "mediana_despues": 0.658,
+   "tamano": [
+    1600,
+    860
+   ]
+  },
+  "estatua-zurbaran": {
+   "grises": 0.725,
+   "ganancia_rgb": [
+    0.996,
+    1.001,
+    1.005
+   ],
+   "niveles": [
+    0.001,
+    0.97
+   ],
+   "estira": 0.97,
+   "gamma": 1.1,
+   "croma_antes": 0.028,
+   "saturacion": 1.12,
+   "croma_despues": 0.037,
+   "mediana_despues": 0.588,
+   "tamano": [
+    1200,
+    1600
+   ]
+  },
+  "hermosa": {
+   "grises": 0.288,
+   "ganancia_rgb": [
+    0.997,
+    1.001,
+    1.001
+   ],
+   "niveles": [
+    0.024,
+    0.875
+   ],
+   "estira": 1.105,
+   "gamma": 0.8,
+   "croma_antes": 0.072,
+   "saturacion": 1.12,
+   "croma_despues": 0.072,
+   "mediana_despues": 0.478,
+   "tamano": [
+    1600,
+    1200
+   ]
+  },
+  "parroquia": {
+   "grises": 0.22,
+   "ganancia_rgb": [
+    0.991,
+    0.999,
+    1.037
+   ],
+   "niveles": [
+    0.028,
+    0.904
+   ],
+   "estira": 1.074,
+   "gamma": 0.929,
+   "croma_antes": 0.201,
+   "saturacion": 0.85,
+   "croma_despues": 0.17,
+   "mediana_despues": 0.522,
+   "tamano": [
+    1600,
+    960
+   ]
+  },
+  "plaza-parroquia": {
+   "grises": 0.668,
+   "ganancia_rgb": [
+    0.994,
+    1.001,
+    1.004
+   ],
+   "niveles": [
+    0.009,
+    0.977
+   ],
+   "estira": 0.971,
+   "gamma": 1.1,
+   "croma_antes": 0.074,
+   "saturacion": 1.12,
+   "croma_despues": 0.089,
+   "mediana_despues": 0.537,
+   "tamano": [
+    1201,
+    1600
+   ]
+  },
+  "san-diego": {
+   "grises": 0.301,
+   "ganancia_rgb": [
+    0.998,
+    1.0,
+    1.006
+   ],
+   "niveles": [
+    0.012,
+    1.0
+   ],
+   "estira": 0.952,
+   "gamma": 0.8,
+   "croma_antes": 0.094,
+   "saturacion": 1.107,
+   "croma_despues": 0.113,
+   "mediana_despues": 0.468,
+   "tamano": [
+    1600,
+    900
+   ]
+  },
+  "san-isidro": {
+   "grises": 0.176,
+   "ganancia_rgb": [
+    0.993,
+    1.001,
+    1.007
+   ],
+   "niveles": [
+    0.02,
+    0.992
+   ],
+   "estira": 0.966,
+   "gamma": 1.1,
+   "croma_antes": 0.143,
+   "saturacion": 0.896,
+   "croma_despues": 0.13,
+   "mediana_despues": 0.562,
+   "tamano": [
+    1600,
+    1067
+   ]
+  },
+  "san-juan": {
+   "grises": 0.494,
+   "ganancia_rgb": [
+    1.004,
+    1.001,
+    0.983
+   ],
+   "niveles": [
+    0.026,
+    0.921
+   ],
+   "estira": 1.05,
+   "gamma": 0.953,
+   "croma_antes": 0.137,
+   "saturacion": 0.916,
+   "croma_despues": 0.117,
+   "mediana_despues": 0.522,
+   "tamano": [
+    1600,
+    1200
+   ]
+  }
+ }
+}

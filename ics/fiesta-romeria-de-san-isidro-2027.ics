@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ayuntamiento de Fuente de Cantos//Agenda//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:fiesta-romeria-de-san-isidro-2027@fuente-de-cantos.agenda
+DTSTAMP:20261005T105103Z
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270516
+SUMMARY:Romería de San Isidro
+LOCATION:15 de mayo. Fiesta de Interés Turístico de Extremadura\, Fuente 
+ de Cantos
+URL:https://alvarotaiagu.github.io/ayuntamiento-fuente-de-cantos-web/agenda
+ .html#evento-fiesta-romeria-de-san-isidro-2027
+END:VEVENT
+END:VCALENDAR

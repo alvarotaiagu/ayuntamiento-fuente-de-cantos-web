@@ -52,10 +52,6 @@
       "url": "https://www.facebook.com/fuentedecantosayuntamiento"
     },
     {
-      "nombre": "Canal de WhatsApp",
-      "url": "https://whatsapp.com/channel/0029Var83pI4o7qH3iwpns2M"
-    },
-    {
       "nombre": "YouTube",
       "url": "https://www.youtube.com/channel/UC8IB-YY0d71jaSHZN8XVs1g"
     },
@@ -661,22 +657,6 @@
             "url": "https://fuentedecantos.eu/pagos/"
           },
           {
-            "nombre": "Pagar una tasa o un recibo en línea",
-            "url": "https://fuentedecantos.eu/pagos/"
-          },
-          {
-            "nombre": "Pagar una tasa o un recibo en línea",
-            "url": "https://fuentedecantos.eu/pagos/"
-          },
-          {
-            "nombre": "Pagar una tasa o un recibo en línea",
-            "url": "https://fuentedecantos.eu/pagos/"
-          },
-          {
-            "nombre": "Pagar una tasa o un recibo en línea",
-            "url": "https://fuentedecantos.eu/pagos/"
-          },
-          {
             "nombre": "Domiciliar recibos",
             "id": "a93cd417-195c-40c5-acf2-9a92b36c8809"
           },
@@ -710,22 +690,6 @@
           {
             "nombre": "Apuntarme a cursos y actividades",
             "id": "1086e3fa-b560-4deb-9c55-66bed39d82f4"
-          },
-          {
-            "nombre": "Reservar una pista o el pabellón",
-            "url": "https://reservas.fuentedecantos.org/"
-          },
-          {
-            "nombre": "Reservar una pista o el pabellón",
-            "url": "https://reservas.fuentedecantos.org/"
-          },
-          {
-            "nombre": "Reservar una pista o el pabellón",
-            "url": "https://reservas.fuentedecantos.org/"
-          },
-          {
-            "nombre": "Reservar una pista o el pabellón",
-            "url": "https://reservas.fuentedecantos.org/"
           },
           {
             "nombre": "Reservar una pista o el pabellón",
@@ -807,22 +771,6 @@
             "url": "https://fuentedecantos.eu/pagos/"
           },
           {
-            "texto": "Pagar en línea una tasa o un recibo",
-            "url": "https://fuentedecantos.eu/pagos/"
-          },
-          {
-            "texto": "Pagar en línea una tasa o un recibo",
-            "url": "https://fuentedecantos.eu/pagos/"
-          },
-          {
-            "texto": "Pagar en línea una tasa o un recibo",
-            "url": "https://fuentedecantos.eu/pagos/"
-          },
-          {
-            "texto": "Pagar en línea una tasa o un recibo",
-            "url": "https://fuentedecantos.eu/pagos/"
-          },
-          {
             "texto": "Domiciliar para no olvidarme",
             "id": "a93cd417-195c-40c5-acf2-9a92b36c8809"
           },
@@ -851,7 +799,8 @@
             "texto": "Dejar una queja o sugerencia",
             "id": "ae05799c-df61-43d1-be43-31943561cea9"
           }
-        ]
+        ],
+        "incidencia": true
       }
     ],
     "sinonimos": {
@@ -2153,10 +2102,189 @@
     ]
   },
   "fotos": {
-    "hero": {
-      "archivo": "plaza-parroquia",
-      "alt": "Plaza empedrada con una cruz de piedra y palmeras ante la torre de la parroquia",
-      "posicion": "45% 12%"
+    "hero_fotos": [
+      {
+        "archivo": "plaza-parroquia",
+        "alt": "Plaza empedrada con una cruz de piedra y palmeras ante la torre de la parroquia",
+        "posicion": "45% 12%"
+      },
+      {
+        "archivo": "hermosa",
+        "alt": "Calle de casas blancas que termina en la fachada blanca del santuario, con su espadaña",
+        "posicion": "40% 50%"
+      },
+      {
+        "archivo": "san-juan",
+        "alt": "Ermita encalada con su capilla y la puerta enrejada, bajo el cielo azul",
+        "posicion": "50% 45%"
+      },
+      {
+        "archivo": "parroquia",
+        "alt": "Fachada de la parroquia con la torre del reloj, el cubo de piedra de la torre vieja y nidos de cigüeña",
+        "posicion": "68% 30%"
+      }
+    ]
+  },
+  "ine": "06052",
+  "horizonte_agenda_dias": 60,
+  "cifras": [
+    {
+      "valor": 4583,
+      "unidad": "habitantes",
+      "etiqueta": "en el padrón municipal",
+      "fuente": "INE, padrón a 1 de enero de 2025",
+      "fuente_url": "https://www.ine.es/jaxiT3/Tabla.htm?t=2881&L=0",
+      "anio": 2025
+    },
+    {
+      "valor": 251.8,
+      "unidad": "km²",
+      "etiqueta": "de término municipal",
+      "fuente": "Diputación de Badajoz, ficha del municipio",
+      "fuente_url": "https://www.dip-badajoz.es/municipios/municipio_dinamico/inicio/index_inicio.php?codigo=54",
+      "anio": null
+    },
+    {
+      "valor": 582,
+      "unidad": "m",
+      "etiqueta": "de altitud sobre el nivel del mar",
+      "fuente": "Diputación de Badajoz, ficha del municipio",
+      "fuente_url": "https://www.dip-badajoz.es/municipios/municipio_dinamico/inicio/index_inicio.php?codigo=54",
+      "anio": null
+    },
+    {
+      "valor": "1293",
+      "unidad": null,
+      "etiqueta": "año del primer documento del archivo municipal que lo menciona",
+      "fuente": "Ayuntamiento, «Historia y origen»",
+      "fuente_url": "https://www.fuentedecantos.eu/2015/01/02/historia-y-origen/",
+      "anio": null
+    }
+  ],
+  "incidencias": {
+    "correo": "ayuntamiento@fuentedecantos.es",
+    "categorias": [
+      {
+        "nombre": "Alumbrado",
+        "ayuda": "Una farola apagada, rota o que se queda encendida de día"
+      },
+      {
+        "nombre": "Agua",
+        "ayuda": "Una fuga, una tapa de alcantarilla movida o falta de agua"
+      },
+      {
+        "nombre": "Limpieza",
+        "ayuda": "Basura en la calle, un contenedor lleno o roto"
+      },
+      {
+        "nombre": "Vía pública",
+        "ayuda": "Un bache, una acera rota, una señal caída"
+      },
+      {
+        "nombre": "Ruidos",
+        "ayuda": "Ruidos que molestan de forma repetida"
+      },
+      {
+        "nombre": "Otro",
+        "ayuda": "Cualquier otra cosa de la calle"
+      }
+    ]
+  },
+  "canal_avisos": {
+    "nombre": "Canal de WhatsApp del Ayuntamiento",
+    "url": "https://whatsapp.com/channel/0029Var83pI4o7qH3iwpns2M",
+    "texto": "El Ayuntamiento publica allí noticias, eventos, bandos y anuncios.",
+    "pasos": [
+      "Abra este enlace en su móvil, con WhatsApp instalado.",
+      "Pulse «Seguir» en el canal «Ayuntamiento De Fuente De Cantos»: los avisos le llegan a WhatsApp."
+    ]
+  },
+  "farmacias": {
+    "oficial": {
+      "nombre": "Colegio Oficial de Farmacéuticos de Badajoz",
+      "url": "https://cofbadajoz.com/farmacias-de-guardia/"
+    }
+  },
+  "transparencia": {
+    "revisada": "2026-10-03",
+    "apartados": {
+      "organizacion": {
+        "pendiente": "un organigrama con el perfil y la trayectoria de cada responsable. La sede tiene un bloque «Institucional» con 6 documentos, pero no se ha comprobado qué incluye; «Órganos colegiados» y «Empleados y cargos públicos» piden identificarse con Cl@ve."
+      },
+      "normativa": {
+        "enlaces": [
+          {
+            "texto": "Ordenanzas fiscales",
+            "url": "https://www.fuentedecantos.eu/ordenanzas-fiscales/",
+            "nota": "32 ordenanzas en PDF, publicadas en septiembre de 2024 en la web actual del Ayuntamiento."
+          },
+          {
+            "texto": "Ordenanzas no fiscales y reglamentos",
+            "url": "https://www.fuentedecantos.eu/ordenanzas-no-fiscales/",
+            "nota": "14 ordenanzas y 6 reglamentos de régimen interno, publicados en septiembre de 2024 en la web actual del Ayuntamiento."
+          }
+        ]
+      },
+      "presupuestos": {
+        "pendiente": "dónde se publican el presupuesto y cómo va su ejecución. La sede tiene un bloque «Económica» con 2 documentos, pero no se ha comprobado qué incluye."
+      },
+      "cuentas": {
+        "pendiente": "dónde se publican las cuentas anuales y los informes de control."
+      },
+      "contratos": {
+        "pendiente": "dónde se publican los contratos menores. El perfil del contratante de la sede está deshabilitado; el que funciona está en la Plataforma de Contratación."
+      },
+      "convenios": {
+        "pendiente": "dónde se publican los convenios que firma el Ayuntamiento."
+      },
+      "subvenciones": {
+        "pendiente": "dónde se publican las subvenciones concedidas, con su importe y quién las recibe. El bloque «Ayudas y subvenciones» de la sede está vacío."
+      },
+      "retribuciones": {
+        "pendiente": "lo que cobra al año cada cargo y las declaraciones de bienes y actividades de los concejales."
+      }
+    }
+  },
+  "propuesta_web": {
+    "problemas": [
+      {
+        "texto": "En todas las páginas salen dos avisos de cookies a la vez, uno encima del otro. El de abajo da el consentimiento por seguir navegando («Acepta para seguir navegando») y el otro tiene el botón escrito «Acceptar». Ni la política de cookies ni la de privacidad se enlazan desde la portada.",
+        "fuente": "fuentedecantos.eu, portada"
+      },
+      {
+        "texto": "No hay declaración de accesibilidad: las dos direcciones habituales dan error 404. El aviso legal y la política de privacidad son una sola página de febrero de 2015 que cita la ley de protección de datos de 1999 (LOPD).",
+        "fuente": "fuentedecantos.eu, accesibilidad y privacidad"
+      },
+      {
+        "texto": "El Centro de Salud sale con el teléfono «924 924 924» y en la plaza de la Aurora, y las farmacias de guardia, con ese mismo teléfono, en un cuadro de enero de 2015. El centro nuevo, en la calle San Julián, se inauguró en 2025.",
+        "fuente": "fuentedecantos.eu, «Centro de Salud» y «Farmacias de Guardia»"
+      },
+      {
+        "texto": "El «Buzón de quejas y sugerencias» y la «Foto denuncia» del menú no tienen formulario: en su lugar se lee el código «[bestwebsoft_contact_form]».",
+        "fuente": "fuentedecantos.eu, páginas del menú"
+      },
+      {
+        "texto": "La última noticia es del 22 de julio de 2026, y la portada sigue con el cartel de la preinscripción de la Escuela de Música «hasta el 30 de junio».",
+        "fuente": "fuentedecantos.eu, portada y noticias"
+      }
+    ],
+    "revisada": "2026-10-05",
+    "captura_antes": {
+      "archivo": "assets/web-actual.jpg",
+      "alt": "Portada actual de fuentedecantos.eu: cabecera con el escudo y la silueta del pueblo, un menú de ocho entradas, un cartel de la preinscripción de la Escuela de Música y la última noticia, del 22 de julio; encima, dos avisos de cookies a la vez"
+    },
+    "contacto": {
+      "nombre": "Álvaro",
+      "correo": "alvarot2601@gmail.com",
+      "telefono": "684 025 751"
+    }
+  },
+  "cabeceras": {
+    "_leeme": "Foto opcional en la cabecera de cada página interior (por id de página), recortada en arco. Sin foto, el arco de línea. «El pueblo» la pinta grande.",
+    "pueblo": {
+      "archivo": "ayuntamiento",
+      "alt": "Fachada blanca de la Casa Consistorial con balcón y banderas, entre palmeras",
+      "posicion": "40% 50%"
     }
   }
 }

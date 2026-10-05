@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ayuntamiento de Fuente de Cantos//Agenda//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:fiesta-fiestas-del-jubileo-y-san-roque-2027@fuente-de-cantos.agenda
+DTSTAMP:20261005T105103Z
+DTSTART;VALUE=DATE:20270814
+DTEND;VALUE=DATE:20270815
+SUMMARY:Fiestas del Jubileo y San Roque
+LOCATION:Del 14 al 18 de agosto\; San Roque\, el patrón\, el 16\, Fuente d
+ e Cantos
+URL:https://alvarotaiagu.github.io/ayuntamiento-fuente-de-cantos-web/agenda
+ .html#evento-fiesta-fiestas-del-jubileo-y-san-roque-2027
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,299 @@
+{
+ "_leeme": "«El pueblo» en inglés (pueblo-en.html). Lo lee scripts/aplicar.mjs: cada texto va emparejado por el nombre en castellano de municipio.json → pueblo. Si falta alguno, la página no se genera. Los nombres propios y los topónimos no se traducen.",
+ "nombre_idioma": "English",
+ "og_locale": "en_GB",
+ "pagina": {
+  "titulo": "The town",
+  "titulo_doc": "The town · Fuente de Cantos",
+  "entradilla": "On the road to Seville, along the Vía de la Plata, where the foothills of the Sierra Morena begin. The town where Francisco de Zurbarán was born.",
+  "descripcion": "History, heritage, festivals and food of Fuente de Cantos (Badajoz, Spain)."
+ },
+ "cabecera_alt": "The white façade of the Casa Consistorial (Town Hall) with its balcony and flags, among palm trees",
+ "ui": {
+  "idiomas": "Languages of this page",
+  "aviso_idioma": "The rest of the site is in Spanish.",
+  "que_ver": "What to see",
+  "para_visitar": "Places to visit",
+  "historia": "History",
+  "patrimonio": "Heritage",
+  "fiestas": "Festivals",
+  "gastronomia": "Food and drink",
+  "platos": "Dishes",
+  "dulces": "Sweets",
+  "para_beber": "To drink",
+  "personajes": "Notable people",
+  "rutas": "Walking routes",
+  "ver_la_ruta": "See the route (in Spanish)",
+  "comer_dormir": "Where to eat and stay",
+  "llamar_a": "Call",
+  "otra_web": ", opens another website",
+  "negocios_privados": "These are private businesses: the Town Council is not responsible for their details.",
+  "creditos": "Photo credits",
+  "ficha_foto": "photo page",
+  "foto": "Photo:",
+  "termino_titulo": "The municipality on a map",
+  "termino_pie": "Map of the municipality of {nombre}, drawn from OpenStreetMap data{fecha}.",
+  "termino_fecha": " as of {fecha}",
+  "termino_lugares": "Places on the map",
+  "termino_leer": "How to read it",
+  "clave_limite": "Municipal boundary (dashed line)",
+  "clave_casco": "The town (shaded area)",
+  "clave_carreteras": "Roads (thick line)",
+  "clave_rutas": "Routes (dotted line)",
+  "clave_puntos": "Numbered circle: a place in the list",
+  "clave_escala": "Scale: the bar at the bottom is",
+  "clave_recuadro": "Inset: the town enlarged; its bar is",
+  "clave_guia": "Thin line with a dot: the exact spot, when the number has been moved aside to keep it readable",
+  "fiesta_mayor": "Main festival",
+  "sin_fiestas": "No festivals this month",
+  "migas": "You are here",
+  "inicio": "Home (in Spanish)",
+  "en_esta_pagina": "On this page"
+ },
+ "pueblo": {
+  "historia": [
+   "The hills of Los Castillejos, next to the town, were inhabited from the Neolithic until Roman times. The area was a compulsory crossing between Mérida and the Guadalquivir valley.",
+   "The name of Fuente de Cantos appears with the Christian conquest, around 1240. The first document in the municipal archive dates from 1293. The town belonged to the Commandery of Montemolín of the Order of Santiago, then it was a royal town, and in the 19th century it was the head of a judicial district.",
+   "The painter Francisco de Zurbarán was born here: he was baptised in the parish church on 7 November 1598. None of his more than 600 catalogued works is kept in the town today, but his birthplace can be visited.",
+   "The municipality covers 251.8 km² and the town stands at 582 metres above sea level, among vineyards, olive groves, dehesa (open oak pasture) and wheat fields. It belongs to the Tentudía region and to the judicial district of Zafra."
+  ],
+  "lugares": {
+   "Parroquia de Nuestra Señora de la Granada": {
+    "nombre": "Parish church of Nuestra Señora de la Granada",
+    "texto": "A Bien de Interés Cultural (listed heritage site). It keeps the 16th-century baptismal font in which Zurbarán was baptised.",
+    "alt": "Façade of the parish church with the clock tower, the stone base of the old tower and storks' nests"
+   },
+   "Casa natal de Zurbarán": {
+    "nombre": "Zurbarán's birthplace",
+    "texto": "On Calle Águilas. Restored in 2014, with six rooms about the painter and his time.",
+    "alt": "Whitewashed façade with a wooden gate, the number 37 and two plaques"
+   },
+   "Santuario de la Hermosa": {
+    "nombre": "Shrine of the Hermosa (Santuario de la Hermosa)",
+    "texto": "The shrine of the patron saint, from the 15th century, remodelled in the 18th.",
+    "alt": "A street of white houses ending at the white façade of the shrine, with its bell gable"
+   },
+   "Casa Consistorial": {
+    "nombre": "Casa Consistorial (Town Hall)",
+    "texto": "In the Plaza de la Constitución, among palm trees.",
+    "alt": "White façade of the Town Hall with a balcony and flags, among palm trees"
+   },
+   "Ermita de San Juan de Letrán": {
+    "nombre": "Chapel of San Juan de Letrán",
+    "texto": "It began as a hospital in 1515. It is one of the two chapels that can be visited.",
+    "alt": "Whitewashed chapel with its side chapel and the gated door, under a blue sky"
+   },
+   "Convento de San Diego": {
+    "nombre": "Convent of San Diego",
+    "texto": "Franciscan, with the church finished in 1624. Today it hosts cultural events.",
+    "alt": "Ochre façade of the former convent among trees"
+   },
+   "Ermita de San Isidro": {
+    "nombre": "Chapel of San Isidro",
+    "texto": "In the meadow of the pilgrimage (romería), on the outskirts.",
+    "alt": "White chapel with a lantern and a rider with his rearing horse in front"
+   },
+   "Monumento a Zurbarán": {
+    "nombre": "Monument to Zurbarán",
+    "texto": "The painter, in bronze and with his palette, in the park that bears his name.",
+    "alt": "Bronze statue of Zurbarán with the palette, on a granite pedestal"
+   },
+   "Los Castillejos": {
+    "texto": "An archaeological site with Chalcolithic and Iron Age walls, next to the road to Fregenal.",
+    "alt": "Dry-stone wall of the archaeological site"
+   }
+  },
+  "patrimonio": {
+   "Parroquia de Nuestra Señora de la Granada": {
+    "nombre": "Parish church of Nuestra Señora de la Granada",
+    "detalle": "Bien de Interés Cultural since 1990. The base of the old tower is from the 15th century, the sacristy from the 16th and the nave from the 18th. It keeps the Virgen de la Granada, from the 16th century, an image of San Roque, the patron saint, and the marble baptismal font in which Zurbarán was baptised."
+   },
+   "Santuario de Nuestra Señora de la Hermosa": {
+    "nombre": "Shrine of Nuestra Señora de la Hermosa",
+    "detalle": "15th century, remodelled in the 18th. Inside, an American canvas of the Cristo de la Encina and «La Aparecida», a Gothic carving of the 14th century."
+   },
+   "Convento de las Carmelitas Descalzas": {
+    "nombre": "Convent of the Discalced Carmelites (Convento de las Carmelitas Descalzas)",
+    "detalle": "Founded in 1649 by Juan de Escobar del Corro. Main altarpiece by Juan Martínez de Vargas (1675)."
+   },
+   "Convento de San Diego": {
+    "nombre": "Convent of San Diego",
+    "detalle": "Franciscan. The church was finished in 1624 and the convent was suppressed in 1835. It keeps the chapel of the Corazón de Jesús."
+   },
+   "Ermita de San Juan de Letrán": {
+    "nombre": "Chapel of San Juan de Letrán",
+    "detalle": "On Calle Almenas. It began as a hospital in 1515."
+   },
+   "Ermita de la Aurora": {
+    "nombre": "Chapel of the Aurora",
+    "detalle": "No longer used for worship. It keeps its Baroque bell gable."
+   },
+   "Ermita de San Isidro": {
+    "nombre": "Chapel of San Isidro",
+    "detalle": "In the meadow where the pilgrimage (romería) is held."
+   },
+   "Casa de los Panea y Plaza de Zurbarán": {
+    "nombre": "Casa de los Panea and Plaza de Zurbarán",
+    "detalle": "The Casa de los Panea, known as «Casa Perrete», and the Modernist square with the monument to the Corazón de Jesús."
+   },
+   "Antigua fábrica harinera": {
+    "nombre": "Former flour mill (Antigua fábrica harinera)",
+    "detalle": "From the early 20th century, on Calle Real. A protected building."
+   },
+   "Yacimiento de Los Castillejos I y II": {
+    "nombre": "Archaeological site of Los Castillejos I and II",
+    "detalle": "From the Neolithic to Roman times, with a Chalcolithic wall and an Iron Age wall."
+   },
+   "Colonias de cernícalo primilla": {
+    "nombre": "Lesser kestrel colonies",
+    "detalle": "The built-up area is a Special Protection Area for Birds (ZEPA)."
+   },
+   "Artesanía campera": {
+    "nombre": "Country crafts",
+    "detalle": "Wooden pots and spoons, horn spoons, country leather bottles (botas camperas) and shepherds' huts (chozos)."
+   }
+  },
+  "fiestas": {
+   "Carnaval": {
+    "nombre": "Carnival",
+    "cuando": "February or March, with the comparsas (carnival groups) in the Teatro Municipal"
+   },
+   "Fiesta de la Chanfaina": {
+    "nombre": "Chanfaina Festival (Fiesta de la Chanfaina)",
+    "cuando": "Last weekend of April. A Festival of Tourist Interest of Extremadura"
+   },
+   "Romería de San Isidro": {
+    "nombre": "San Isidro pilgrimage (romería)",
+    "cuando": "15 May. A Festival of Tourist Interest of Extremadura"
+   },
+   "Fiesta de San Juan": {
+    "nombre": "San Juan festival (Fiesta de San Juan)",
+    "cuando": "The Saturday closest to 24 June, in the San Juan quarter"
+   },
+   "Fiestas del Jubileo y San Roque": {
+    "nombre": "Jubileo festivals and San Roque (Fiestas del Jubileo y San Roque)",
+    "cuando": "14 to 18 August; San Roque, the patron saint, on the 16th"
+   },
+   "Nuestra Señora de la Hermosa": {
+    "cuando": "8 September, the patron saint festivals"
+   },
+   "Otoño Flamenco": {
+    "nombre": "Otoño Flamenco (Flamenco Autumn)",
+    "cuando": "October, in the Teatro Municipal"
+   },
+   "Premio Internacional de Pintura «Francisco de Zurbarán»": {
+    "nombre": "«Francisco de Zurbarán» International Painting Prize",
+    "cuando": "November"
+   }
+  },
+  "platos": [
+   "Chanfaina de cordero (lamb stew, the town's signature dish)",
+   "Caldereta (stew)",
+   "Migas (fried breadcrumbs)",
+   "Gazpacho",
+   "Cocido extremeño (Extremaduran stew)",
+   "Espárragos trigueros (wild asparagus)",
+   "Setas (mushrooms)",
+   "Productos del cerdo ibérico (Iberian pork products)"
+  ],
+  "dulces": [
+   "Perrunillas (shortbread biscuits)",
+   "Bollitas de chicharrones (small pork-crackling buns)",
+   "Piononos (small sponge pastries)"
+  ],
+  "bebidas": [],
+  "gastronomia_alt": "A cauldron of chanfaina boiling over the embers of a bonfire",
+  "personajes": {
+   "Francisco de Zurbarán": {
+    "fechas": "1598-1664",
+    "texto": "Painter of the Spanish Golden Age. Baptised in the parish church of Fuente de Cantos, he trained in Seville and settled in Llerena in 1617."
+   },
+   "Nicolás Megía": {
+    "fechas": "1845-1917",
+    "texto": "Painter. Medal in 1890 for «La defensa de Zaragoza». A street, a park and the nursery school bear his name."
+   },
+   "Juan de Escobar del Corro": {
+    "fechas": "17th century",
+    "texto": "In 1649 he founded the college that gave rise to the convent of the Discalced Carmelites."
+   }
+  },
+  "rutas": {
+   "Vía de la Plata: Fuente de Cantos - Zafra": {
+    "resumen": "24 km among olive groves and cereal fields, with villages with services at 6 and 20 km."
+   },
+   "Fuente El Lobo": {
+    "resumen": "17 km, low difficulty. From the Plaza de Colón along La Senda to the spring; back along the Bienvenida track."
+   },
+   "La Cañada Real - La Senda": {
+    "resumen": "14 km, medium difficulty. Past the chapel of San Juan and along the Cañada Real (drove road) to the Cabeza Gorda hill."
+   },
+   "Las Zorrillas": {
+    "resumen": "17 km, medium difficulty. Along the Monesterio track and the vereda de los Carboneros (drove road)."
+   },
+   "Cortijo Palominos": {
+    "resumen": "22 km, medium difficulty. Along the Monesterio track to Las Zorrillas; back along the Camino de Santiago."
+   },
+   "Las Horneras": {
+    "resumen": "23 km, medium difficulty. Along the vereda de los Carboneros (drove road); back along the Bienvenida track."
+   },
+   "Las Talliscas - Bodión - El Risco": {
+    "resumen": "20 km, medium difficulty. Along the Valencia del Ventoso track to the river Bodión."
+   },
+   "La Argamasa": {
+    "resumen": "33 km, medium difficulty. Along the Camino de Santiago and Calzadilla; back along the Vía de la Plata."
+   }
+  }
+ },
+ "creditos": {
+  "plaza-parroquia": {
+   "titulo": "Square and tower of the parish church (cover photo)",
+   "nota": "With our own colour grading"
+  },
+  "parroquia": {
+   "titulo": "Parish church of Nuestra Señora de la Granada",
+   "nota": "Cropped and with our own colour grading"
+  },
+  "ayuntamiento": {
+   "titulo": "Casa Consistorial (Town Hall)",
+   "nota": "Cropped and with our own colour grading"
+  },
+  "casa-natal": {
+   "titulo": "Francisco de Zurbarán's birthplace",
+   "autor": "Town Council website",
+   "nota": "Only for this proposal: the Town Council's permission is needed to publish it"
+  },
+  "hermosa": {
+   "titulo": "Shrine of Nuestra Señora de la Hermosa",
+   "autor": "Town Council website",
+   "nota": "Only for this proposal: the Town Council's permission is needed to publish it"
+  },
+  "san-juan": {
+   "titulo": "Chapel of San Juan de Letrán",
+   "autor": "Town Council website",
+   "nota": "Only for this proposal: the Town Council's permission is needed to publish it"
+  },
+  "san-isidro": {
+   "titulo": "Chapel of San Isidro",
+   "nota": "With our own colour grading"
+  },
+  "san-diego": {
+   "titulo": "Convent of San Diego",
+   "autor": "Town Council website",
+   "nota": "Only for this proposal: the Town Council's permission is needed to publish it"
+  },
+  "castillejos": {
+   "titulo": "Archaeological site of Los Castillejos",
+   "autor": "Town Council website",
+   "nota": "Only for this proposal: the Town Council's permission is needed to publish it"
+  },
+  "estatua-zurbaran": {
+   "titulo": "Statue of Zurbarán",
+   "nota": "With our own colour grading"
+  },
+  "chanfaina": {
+   "titulo": "A cauldron of chanfaina",
+   "autor": "Town Council website",
+   "nota": "Only for this proposal: the Town Council's permission is needed to publish it"
+  }
+ }
+}
